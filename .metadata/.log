@@ -1,0 +1,1070 @@
+!SESSION 2024-05-14 17:28:22.487 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=21.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data C:\Users\Leo\Desktop\isep\A2\Algo\Project -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-05-14 17:28:26.621
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-14 17:28:27.014
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-14 17:28:28.484
+!MESSAGE Logback config file: C:\Users\Leo\Desktop\isep\A2\Algo\Project\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-05-14 17:28:28.959
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-14 17:28:28.959
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-05-14 17:28:29.360
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-14 17:28:29.360
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.jface 2 0 2024-05-14 17:28:31.132
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-14 17:28:31.132
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-14 17:28:35.398
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Leo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-14 17:28:38.504
+!MESSAGE <null>
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse.lambda$0(Unknown Source)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-05-14 17:28:39.000
+!MESSAGE [Info]	Registering request handler for workspace/didChangeWorkspaceFolders failed.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-14 17:29:21.888
+!MESSAGE Classpath changed for project: socialBanger
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-14 17:29:24.151
+!MESSAGE Classpath changed for project: socialBanger
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-14 17:29:24.153
+!MESSAGE Boot project ADDED: socialBanger
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-14 17:29:24.155
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-14 17:29:24.157
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-14 17:29:24.209
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\Leo\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.2.v20240123-0840\jre\bin\javaw.exe
+-cp
+C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/Leo/Desktop/isep/A2/Algo/Project/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1715700564207
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-14 17:29:24.211
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-14 17:29:24.228
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 35684
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-14 17:29:25.213
+!MESSAGE Classpath changed for project: socialBanger
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-14 17:29:26.053
+!MESSAGE Classpath changed for project: socialBanger
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-14 17:29:28.354
+!MESSAGE Classpath changed for project: socialBanger
+
+!ENTRY org.eclipse.jface 2 0 2024-05-14 17:29:55.747
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-14 17:29:55.748
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-05-14 18:00:15.160
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-05-14 18:03:50.441
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-05-14 18:05:10.118
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-05-14 18:08:51.053
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2024-05-14 21:13:58.744 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=21.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-05-14 21:14:04.095
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-14 21:14:04.742
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-14 21:14:07.705
+!MESSAGE Logback config file: C:\Users\Leo\Desktop\isep\A2\Algo\Project\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-05-14 21:14:09.754
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-14 21:14:09.754
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-05-14 21:14:10.931
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-14 21:14:10.932
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.jface 2 0 2024-05-14 21:14:14.125
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-14 21:14:14.126
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-14 21:14:20.195
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\Leo\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.2.v20240123-0840\jre\bin\javaw.exe
+-cp
+C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/Leo/Desktop/isep/A2/Algo/Project/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1715714060193
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-14 21:14:20.197
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-14 21:14:20.233
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 23504
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-14 21:14:30.369
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Leo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-14 21:14:30.419
+!MESSAGE Boot project ADDED: socialBanger
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-14 21:14:30.422
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-14 21:14:30.426
+!MESSAGE Started Boot LS process
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-14 21:14:32.598
+!MESSAGE <null>
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse.lambda$0(Unknown Source)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-05-14 21:14:34.196
+!MESSAGE [Info]	Registering request handler for workspace/didChangeWorkspaceFolders failed.
+!SESSION 2024-05-15 16:07:43.939 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=21.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data C:\Users\Leo\Desktop\isep\A2\Algo\Project -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-05-15 16:07:47.073
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-15 16:07:47.628
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-15 16:07:49.358
+!MESSAGE Logback config file: C:\Users\Leo\Desktop\isep\A2\Algo\Project\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-05-15 16:07:50.307
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-15 16:07:50.307
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-05-15 16:07:50.848
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-15 16:07:50.848
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.jface 2 0 2024-05-15 16:07:52.791
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-15 16:07:52.791
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-15 16:07:59.089
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\Leo\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.2.v20240123-0840\jre\bin\javaw.exe
+-cp
+C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/Leo/Desktop/isep/A2/Algo/Project/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1715782079088
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-15 16:07:59.089
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-15 16:07:59.113
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 9944
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-15 16:08:04.029
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Leo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-15 16:08:04.051
+!MESSAGE Boot project ADDED: socialBanger
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-15 16:08:04.053
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-15 16:08:04.062
+!MESSAGE Started Boot LS process
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-15 16:08:06.967
+!MESSAGE <null>
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse.lambda$0(Unknown Source)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-05-15 16:08:07.772
+!MESSAGE [Info]	Registering request handler for workspace/didChangeWorkspaceFolders failed.
+
+!ENTRY org.eclipse.jface 2 0 2024-05-15 16:12:23.115
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-15 16:12:23.115
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-05-15 16:13:21.960
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-05-15 16:13:21.961
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-05-15 16:13:21.962
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-05-15 16:13:21.964
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-05-15 16:13:21.976
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-05-15 16:13:21.983
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-15 16:13:32.501
+!MESSAGE Classpath changed for project: socialBanger
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-15 16:13:32.715
+!MESSAGE Classpath changed for project: socialBanger
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-15 19:57:27.404
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-15 22:24:51.388
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+!SESSION 2024-05-16 18:06:36.036 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=21.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\Leo\Desktop\isep\A2\Algo\Project -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-05-16 18:06:40.061
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-16 18:06:40.745
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-16 18:06:42.696
+!MESSAGE Logback config file: C:\Users\Leo\Desktop\isep\A2\Algo\Project\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-05-16 18:06:43.702
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-16 18:06:43.702
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-05-16 18:06:44.319
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-16 18:06:44.319
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.jface 2 0 2024-05-16 18:06:46.323
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-16 18:06:46.324
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-16 18:06:51.144
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\Leo\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.2.v20240123-0840\jre\bin\javaw.exe
+-cp
+C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/Leo/Desktop/isep/A2/Algo/Project/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1715875611144
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 18:06:51.145
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-16 18:06:51.161
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 14724
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-16 18:06:57.222
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Leo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 18:06:57.430
+!MESSAGE Boot project ADDED: socialBanger
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 18:06:57.432
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 18:06:57.438
+!MESSAGE Started Boot LS process
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:06:59.851
+!MESSAGE <null>
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse.lambda$0(Unknown Source)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-05-16 18:06:59.999
+!MESSAGE [Info]	Registering request handler for workspace/didChangeWorkspaceFolders failed.
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:07:01.128
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:07:02.473
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:07:02.474
+!MESSAGE Cannot invoke "com.genuitec.copilot4eclipse.lsp.messages.CheckStatusResult.isSignedIn()" because "<parameter1>" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "com.genuitec.copilot4eclipse.lsp.messages.CheckStatusResult.isSignedIn()" because "<parameter1>" is null
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse.notifyStatusChange(Unknown Source)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse.lambda$0(Unknown Source)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:07:05.484
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:08:23.424
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:08:57.717
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:09:00.331
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:09:07.687
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:09:19.680
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:09:20.788
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:09:23.510
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:09:29.181
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:09:30.499
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:09:33.293
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:09:42.868
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:09:44.339
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:09:47.491
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:10:12.976
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:10:14.480
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:10:17.014
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:10:21.523
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:10:22.720
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:10:25.757
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:10:33.598
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:10:34.946
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:10:37.259
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:10:44.297
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:10:45.811
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:10:47.939
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:10:54.141
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:11:52.705
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:11:55.884
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:12:18.062
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:12:20.385
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:12:22.341
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:12:24.759
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:12:27.382
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:12:29.901
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:12:37.520
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:12:42.377
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:12:45.872
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:12:47.799
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:12:50.712
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:12:57.126
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:13:03.872
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-05-16 18:13:04.380
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:13:08.017
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:13:24.177
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:13:26.259
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:13:27.661
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:14:12.693
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:14:31.130
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:14:37.576
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:14:46.495
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 18:15:53.087
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-05-16 18:29:03.927
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-05-16 18:32:20.893
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-05-16 18:33:38.068
+!MESSAGE Error retrieving proposal text.
+Display string:
+ch
+Pattern:
+cer
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: Range [0, 3) out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:879)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:1157)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6592)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5798)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1961)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5366)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4800)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2305)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5814)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.UpdateWindow(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setVisible(Decorations.java:1289)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2083)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.configureAndMakeVisible(CompletionProposalPopup.java:1282)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.displayProposals(CompletionProposalPopup.java:1246)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.displayProposals(AsyncCompletionProposalPopup.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$4(AsyncCompletionProposalPopup.java:268)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-05-16 18:34:30.686
+!MESSAGE Error retrieving proposal text.
+Display string:
+ch
+Pattern:
+cre
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: Range [0, 3) out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:879)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:1157)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6592)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5798)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1961)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5366)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4800)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2305)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5814)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.UpdateWindow(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setVisible(Decorations.java:1289)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2083)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.configureAndMakeVisible(CompletionProposalPopup.java:1282)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.displayProposals(CompletionProposalPopup.java:1246)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.displayProposals(AsyncCompletionProposalPopup.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$4(AsyncCompletionProposalPopup.java:268)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-05-16 18:37:34.847
+!MESSAGE Error retrieving proposal text.
+Display string:
+ch
+Pattern:
+cre
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: Range [0, 3) out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:879)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:1157)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6592)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5798)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1961)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5366)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4800)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2305)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5814)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5039)
+	at org.eclipse.swt.internal.win32.OS.UpdateWindow(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setVisible(Decorations.java:1289)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2083)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.configureAndMakeVisible(CompletionProposalPopup.java:1282)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.displayProposals(CompletionProposalPopup.java:1246)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.displayProposals(AsyncCompletionProposalPopup.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$4(AsyncCompletionProposalPopup.java:268)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SESSION 2024-05-16 21:48:39.929 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=21.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-05-16 21:48:46.099
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-16 21:48:46.548
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-16 21:48:49.375
+!MESSAGE Logback config file: C:\Users\Leo\Desktop\isep\A2\Algo\Project\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-05-16 21:48:50.380
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-16 21:48:50.380
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-05-16 21:48:51.758
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-16 21:48:51.758
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.jface 2 0 2024-05-16 21:48:54.541
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-16 21:48:54.541
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-16 21:49:00.785
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\Leo\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.2.v20240123-0840\jre\bin\javaw.exe
+-cp
+C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Leo\eclipse\jee-2023-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/Leo/Desktop/isep/A2/Algo/Project/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1715888940783
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 21:49:00.786
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-16 21:49:00.822
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 16320
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-16 21:49:07.230
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Leo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 21:49:07.235
+!MESSAGE Boot project ADDED: socialBanger
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 21:49:07.237
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 21:49:07.243
+!MESSAGE Started Boot LS process
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 21:49:09.433
+!MESSAGE <null>
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse.lambda$0(Unknown Source)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-05-16 21:49:09.757
+!MESSAGE [Info]	Registering request handler for workspace/didChangeWorkspaceFolders failed.
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 21:49:12.008
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 21:49:12.017
+!MESSAGE Cannot invoke "com.genuitec.copilot4eclipse.lsp.messages.CheckStatusResult.isSignedIn()" because "<parameter1>" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "com.genuitec.copilot4eclipse.lsp.messages.CheckStatusResult.isSignedIn()" because "<parameter1>" is null
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse.notifyStatusChange(Unknown Source)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse.lambda$0(Unknown Source)
+	at com.genuitec.copilot4eclipse.Copilot4Eclipse$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-05-16 21:49:54.995
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com

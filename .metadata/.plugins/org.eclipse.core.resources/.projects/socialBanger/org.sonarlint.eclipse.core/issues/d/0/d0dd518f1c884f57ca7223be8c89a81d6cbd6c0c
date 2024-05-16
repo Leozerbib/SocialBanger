@@ -1,0 +1,22 @@
+
+{	java:S1073"AConstructor has 8 parameters, which is greater than 7 authorized.8žªë‘ø1b 4480fd2067cbd15e1615d2ba14b9b1d4h
+r
+java:S1128"7Remove this unused import 'jakarta.persistence.Column'.8žªë‘ø1b 8fd4aff57fa032a7e875c4194979e606h
+t
+java:S1128"9Remove this unused import 'jakarta.persistence.EnumType'.8žªë‘ø1b 36066084ef1ba7a5cf2888ba72f33cf3h
+v
+java:S1128";Remove this unused import 'jakarta.persistence.Enumerated'.8žªë‘ø1b cde01106ca520981204d85f1ced20152h
+z
+java:S1128"?Remove this unused import 'jakarta.persistence.GeneratedValue'.8žªë‘ø1b 08b276a9f627bb33ff29d65613945409h
+z
+java:S1128"?Remove this unused import 'jakarta.persistence.GenerationType'.8žªë‘ø1b 815e1bdf2f8cf762c511ce3bbd060a24h
+n
+java:S1128"3Remove this unused import 'jakarta.persistence.Id'.8žªë‘ø1b 6d9b8800928f1905b0b2ddf3a92fccfdh
+v
+java:S1128";Remove this unused import 'jakarta.persistence.JoinColumn'.8žªë‘ø1b 982abf4ba553106a2be4a92cbe1f6809h
+u
+java:S1128":Remove this unused import 'jakarta.persistence.JoinTable'.8žªë‘ø1b 433f9a39a6aaea88ce1321d731c794e4h
+v
+java:S1128";Remove this unused import 'jakarta.persistence.ManyToMany'.8žªë‘ø1b 889617adda04f0b25ca07693414bfdd9h
+u
+java:S1128":Remove this unused import 'jakarta.persistence.ManyToOne'.8žªë‘ø1b cc2faacfad9e51b43d563b61c96d2454h

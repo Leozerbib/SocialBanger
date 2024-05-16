@@ -1,0 +1,16 @@
+
+j
+java:S3740""/Provide the parametrized type for this generic.8ø³ï‘ø1b d64ed3e9c10229648e069f56e32f4c8eh
+j
+java:S3740""/Provide the parametrized type for this generic.8ø³ï‘ø1b d64ed3e9c10229648e069f56e32f4c8eh
+}
+java:S6813"BRemove this field injection and use constructor injection instead.8ø³ï‘ø1b 0132ec8cee01c5dd244e1a60fe6448a1h
+}
+java:S6813$"BRemove this field injection and use constructor injection instead.8ø³ï‘ø1b 0132ec8cee01c5dd244e1a60fe6448a1h
+e	java:S1061"+Replace this use of System.out by a logger.8ø³ï‘ø1b bb1c3f2ea781263d3a2bb92b06a2061fh
+†
+java:S1128"KRemove this unused import 'A2.algo.socialBanger.Model.Entity.Enums.Gender'.8ñ·¢’ø1b 4907ac49d00068ae6dc51eb4bf48fa05h
+†
+java:S1128"KRemove this unused import 'A2.algo.socialBanger.Model.Service.UserService'.8ñ·¢’ø1b f8d0662cc5c080cc88bb31f8ad0fff73h
+t
+java:S1128"9Remove this unused import 'jakarta.persistence.EnumType'.8ñ·¢’ø1b 36066084ef1ba7a5cf2888ba72f33cf3h

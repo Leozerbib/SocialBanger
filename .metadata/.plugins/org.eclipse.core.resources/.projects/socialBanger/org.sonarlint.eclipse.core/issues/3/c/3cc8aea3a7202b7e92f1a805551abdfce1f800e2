@@ -1,0 +1,9 @@
+
+^
+java:S1165"#Make this "httpStatus" field final.8®ÀÒå÷1b df0b0760e8d0f42da0494e0ed5509f10h
+Z
+java:S1165"Make this "errors" field final.8®ÀÒå÷1b 07213a0161f52846ab198be103b5ab43h
+X
+java:S1165"Make this "data" field final.8®ÀÒå÷1b 8d777f385d3dfec8815d20f7496026dch
+a
+java:S1948"&Make "data" transient or serializable.8®ÀÒå÷1b 8d777f385d3dfec8815d20f7496026dch
