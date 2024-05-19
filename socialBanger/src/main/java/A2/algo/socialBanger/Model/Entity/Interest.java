@@ -29,7 +29,13 @@ public class Interest {
     
     @Column(unique = true)
     private String subcategory;
+    
     @ManyToMany(mappedBy = "interests")
     private Set<User> users = new HashSet<>();
     
+	Interest(Long id, String category, String subcategory) {
+		this.id = id;	
+		this.category = category;
+		this.subcategory = subcategory;
+	}
 }

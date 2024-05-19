@@ -1,5 +1,7 @@
 package A2.algo.socialBanger.Model.Repo;
 
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -8,8 +10,23 @@ import A2.algo.socialBanger.Model.Entity.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
-    @Query("SELECT u FROM User u WHERE u.email = ?1")
-    User findUserByEmail(String email);
+    
+    User findUserByEmail(String email) ;
+    
+    User existsByEmail(String email);
+    
+    User findByEmail(String email);
+    
+    User findByUsername(String username);
+    
+    List<User> findAll();
+    
+    User findById(long id);
+    
+    
+    
+    
+    
 
     
     
