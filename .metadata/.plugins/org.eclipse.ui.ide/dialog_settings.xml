@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\leo\OneDrive - ISEP\Bureau\taffe\Isep\ParcoursData\Algo\projet\SocialBanger\socialBanger"/>
 			<item value="C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger"/>
 		</list>
 	</section>
