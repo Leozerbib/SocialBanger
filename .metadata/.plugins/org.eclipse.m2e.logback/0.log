@@ -2942,8 +2942,11 @@
 2024-05-19 18:59:55,952 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-05-19 18:59:55,956 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 2024-05-19 19:12:45,936 [Worker-200: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-05-19 19:12:45,949 [Worker-200: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-05-19 19:12:45,952 [Worker-200: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
