@@ -43,7 +43,7 @@ public class UserControler {
 
 	
 	
-	@PostMapping("/register/")
+	@PostMapping("/register")
 	public Response<Boolean> register(@RequestBody RegisterDto createUser) {
 	    if (createUser == null) {
 	        return Response.failedResponse("User null");
@@ -90,6 +90,10 @@ public class UserControler {
 		return Response.successfulResponse("User deleted");
 	}
 	
+	
+	
+	
+	
 	@GetMapping("/getById")
 	public Response<User> getById(@RequestBody int id) {
 		User user = userServiceImpl.getUtilisateurById(id).getData();
@@ -99,6 +103,9 @@ public class UserControler {
 		return Response.successfulResponse("User found", user);
 		
 	}
+	
+	
+	
 	
 	@PostMapping("/getByName")
 	public Response<User> getByName(@RequestBody RegisterDto getUser) {
