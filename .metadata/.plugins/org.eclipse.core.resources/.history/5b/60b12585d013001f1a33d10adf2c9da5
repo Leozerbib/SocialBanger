@@ -1,0 +1,24 @@
+
+#configuring application name
+spring.application.name=socialBanger
+spring.banner.location=classpath:banner.txt
+
+
+############## DataSource Config #################
+spring.datasource.name=socialbanger
+spring.datasource.username=socialbanger_user
+spring.datasource.password=UT2KngvtDRo9BU4R371Q6vIeQdFaozp9
+spring.datasource.url = jdbc:postgresql://dpg-cp1nrk8l5elc73f1mdng-a.frankfurt-postgres.render.com:5432/socialbanger
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+############# Hibernate properties #################
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.highlight_sql=true
+spring.jpa.properties.hibernate.dialect.format_sql: true
+
+server.port=8090
+spring.mvc.static-path-pattern=/resources/socialbanger/v1/**
+spring.devtools.livereload.enabled=true

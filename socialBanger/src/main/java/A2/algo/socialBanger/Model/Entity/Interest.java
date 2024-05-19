@@ -24,9 +24,12 @@ public class Interest {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(unique = true)
-    private String name;
+    @Column()
+    private String category;
     
+    @Column(unique = true)
+    private String subcategory;
     @ManyToMany(mappedBy = "interests")
     private Set<User> users = new HashSet<>();
+    
 }

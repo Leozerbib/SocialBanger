@@ -9,7 +9,7 @@ import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
-@Service("MonthlyWaterConsumptionService")
+@Service("UserServiceImpl")
 @Transactional
 @RequiredArgsConstructor
 @Slf4j
@@ -17,7 +17,7 @@ public class UserServiceImpl implements UserService{
 	
 	@Override
 	public Response<Boolean> addUtilisateur(User user) {
-		// TODO Auto-generated method stub
+		System.out.println("UserServiceImpl.addUtilisateur()");
 		return null;
 	}
 

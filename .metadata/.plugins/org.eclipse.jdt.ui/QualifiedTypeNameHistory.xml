@@ -23,7 +23,6 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Config.Response"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Service.UserService"/>
@@ -34,5 +33,10 @@
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.Enums.UserStatus"/>
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.Enums.Gender"/>
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.Dto.UserDto"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.User"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.NamedQueries"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.NamedQuery"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
 </qualifiedTypeNameHistroy>

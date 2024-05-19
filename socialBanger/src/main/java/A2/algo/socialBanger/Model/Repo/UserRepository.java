@@ -11,6 +11,9 @@ public interface UserRepository extends JpaRepository<User, Long> {
     @Query("SELECT u FROM User u WHERE u.email = ?1")
     User findUserByEmail(String email);
 
+    
+    
+    
     // Exemple d'insertion : userRepository.save(new User(...));
     // Exemple de mise à jour : userRepository.save(existingUser);
     // Exemple de suppression : userRepository.deleteById(userId);

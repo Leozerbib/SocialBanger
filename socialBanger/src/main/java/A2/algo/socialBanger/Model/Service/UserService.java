@@ -3,6 +3,7 @@ package A2.algo.socialBanger.Model.Service;
 import A2.algo.socialBanger.Config.Response;
 import A2.algo.socialBanger.Model.Entity.User;
 
+
 public interface UserService {
 	
 	public Response<Boolean> addUtilisateur(User user);

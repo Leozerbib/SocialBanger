@@ -24,7 +24,6 @@ import lombok.Setter;
 @Getter@Setter
 public class UserDto {
     
-    private Long id;
 
     private String firstName;
 
@@ -33,12 +32,6 @@ public class UserDto {
     private String email;
 
     private String password;
-
-    private LocalDateTime createdAt;
-
-    private LocalDateTime updatedAt;
-
-    private UserStatus status;
 
     private Integer age;
 

@@ -3,6 +3,7 @@ package Controler;
 import java.time.LocalDateTime;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -23,7 +24,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/socialBanger/v1/user")
+@RequestMapping("/user")
 @RequiredArgsConstructor
 @Slf4j
 public class UserControler {
@@ -36,7 +37,8 @@ public class UserControler {
 	@Autowired
 	UserServiceImpl userServiceImpl;
 	
-	@PostMapping("/Register")
+	
+	@PostMapping("/register")
 	public Response<Boolean> register(@RequestBody UserDto createUser) {
 	    if (createUser == null) {
 	        return Response.failedResponse("User null");

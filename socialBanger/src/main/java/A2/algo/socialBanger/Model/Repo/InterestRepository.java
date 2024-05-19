@@ -8,8 +8,8 @@ import A2.algo.socialBanger.Model.Entity.Interest;
 
 @Repository
 public interface InterestRepository extends JpaRepository<Interest, Long> {
-    @Query("SELECT i FROM Interest i WHERE i.name = ?1")
-    Interest findInterestByName(String name);
+    @Query("SELECT i FROM Interest i WHERE i.category = ?1")
+    Interest findInterestByCategory(String category);
 
     // Exemple d'insertion : interestRepository.save(new Interest(...));
     // Exemple de mise à jour : interestRepository.save(existingInterest);

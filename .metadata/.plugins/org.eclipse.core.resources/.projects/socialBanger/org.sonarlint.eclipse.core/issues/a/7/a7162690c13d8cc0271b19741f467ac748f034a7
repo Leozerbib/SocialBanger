@@ -1,0 +1,7 @@
+
+x
+java:S1128"=Remove this unused import 'jakarta.persistence.NamedQueries'.8‘æÜªø1b 7a877e453c843e314a948a6a371ce7fch
+v
+java:S1128";Remove this unused import 'jakarta.persistence.NamedQuery'.8‘æÜªø1b 2897cf181b560e9fb228a90d82acb423h
+e
+java:S1128"*Remove this unused import 'lombok.Getter'.8‘æÜªø1b 46728b9733b2f49ff06f7228c49c3361h
