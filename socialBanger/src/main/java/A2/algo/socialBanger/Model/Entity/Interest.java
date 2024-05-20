@@ -3,8 +3,11 @@ package A2.algo.socialBanger.Model.Entity;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.hibernate.annotations.Fetch;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -29,9 +32,6 @@ public class Interest {
     
     @Column(unique = true)
     private String subcategory;
-    
-    @ManyToMany(mappedBy = "interests")
-    private Set<User> users = new HashSet<>();
     
 	Interest(Long id, String category, String subcategory) {
 		this.id = id;	
