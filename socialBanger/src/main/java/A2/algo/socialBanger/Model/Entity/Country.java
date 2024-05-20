@@ -24,8 +24,8 @@ public class Country {
     private String code;
 
     @Column
-    private String name;
+    private String country;
 
     @Column
-    private String flagUrl;
+    private String flag_image_url;
 }

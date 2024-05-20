@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import A2.algo.socialBanger.Config.PasswordUtils;
@@ -27,7 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/api/v1/user")
+@RequestMapping("/user")
 @RequiredArgsConstructor
 @Slf4j
 public class UserControler {
@@ -40,8 +41,14 @@ public class UserControler {
 	@Autowired
 	UserServiceImpl userServiceImpl;
 	
-
+	public static final String HELLO_TEXT = "Hello from Spring Boot Backend!";
 	
+    @ResponseBody
+    @RequestMapping(path = "/hello")
+    public String sayHello() {
+        log.info("GET called on /hello resource");
+        return HELLO_TEXT;
+    }
 	
 	@PostMapping("/register")
 	public Response<Boolean> register(@RequestBody RegisterDto createUser) {
@@ -61,8 +68,8 @@ public class UserControler {
 	@PostMapping("/Login")
 	public Response<User> login(@RequestBody LoginDto loginUser) {
 		User user = userServiceImpl.getUtilisateurByMail(loginUser.getEmail()).getData();
-		System.out.println(user.toString());
 		if (user != null) {
+			log.info("User trying to login : " + user.toString());
 			if (passwordUtils.matchPassword(loginUser.getPassword(), user.getPassword())) {
 				user.setUserStatus(UserStatus.Connected);
 				userServiceImpl.updateUtilisateur(user);
