@@ -33,9 +33,4 @@ public class Interest {
     @Column(unique = true)
     private String subcategory;
     
-	Interest(Long id, String category, String subcategory) {
-		this.id = id;	
-		this.category = category;
-		this.subcategory = subcategory;
-	}
 }
