@@ -1,60 +1,60 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { first } from 'rxjs/operators';
+import { Interest } from '../../../../model/Interest/interest.model';
+import { Country } from '../../../../model/Country/country.model';
+import { RegisterDto } from '../../../../model/User/register-dto.model';
 
-import { AccountService } from '../../../../service/User/uer-service.service';
-import { AlertService } from '../../../../service/util/alert.service';
-
-@Component({ templateUrl: 'register.component.html' })
+@Component({
+  selector: 'app-register',
+  templateUrl: './register.component.html'
+})
 export class RegisterComponent implements OnInit {
-    form!: FormGroup;
-    loading = false;
-    submitted = false;
+  registerForm!: FormGroup;
+  interests!: Interest[];
+  countries!: Country[];
 
-    constructor(
-        private formBuilder: FormBuilder,
-        private route: ActivatedRoute,
-        private router: Router,
-        private accountService: AccountService,
-        private alertService: AlertService
-    ) { }
+  constructor(private formBuilder: FormBuilder) { }
 
-    ngOnInit() {
-        this.form = this.formBuilder.group({
-            firstName: ['', Validators.required],
-            lastName: ['', Validators.required],
-            username: ['', Validators.required],
-            password: ['', [Validators.required, Validators.minLength(6)]]
-        });
+  ngOnInit() {
+    this.registerForm = this.formBuilder.group({
+      firstName: ['', Validators.required],
+      lastName: ['', Validators.required],
+      username: ['', Validators.required],
+      email: ['', Validators.required],
+      password: ['', [Validators.required, Validators.minLength(6)]],
+      age: ['', Validators.required],
+      gender: ['', Validators.required],
+      interests: ['', Validators.required],
+      country: ['', Validators.required]
+    });
+
+    // Here you should fetch your interests and countries from your service
+    // This is just a mockup
+    this.interests = [
+      
+    ];
+
+    this.countries = [
+
+    ];
+  }
+
+  onSubmit() {
+    if (this.registerForm.valid) {
+      const registerDto = new RegisterDto(
+        this.registerForm.value.firstName,
+        this.registerForm.value.lastName,
+        this.registerForm.value.username,
+        this.registerForm.value.email,
+        this.registerForm.value.password,
+        this.registerForm.value.age,
+        this.registerForm.value.gender,
+        this.registerForm.value.interests,
+        this.registerForm.value.country
+      );
+
+      // Here you should call your service to register the user
+      console.log(registerDto);
     }
-
-    // convenience getter for easy access to form fields
-    get f() { return this.form.controls; }
-
-    onSubmit() {
-        this.submitted = true;
-
-        // reset alerts on submit
-        this.alertService.clear();
-
-        // stop here if form is invalid
-        if (this.form.invalid) {
-            return;
-        }
-
-        this.loading = true;
-        this.accountService.register(this.form.value)
-            .pipe(first())
-            .subscribe({
-                next: () => {
-                    this.alertService.success('Registration successful', { keepAfterRouteChange: true });
-                    this.router.navigate(['../login'], { relativeTo: this.route });
-                },
-                error: error => {
-                    this.alertService.error(error);
-                    this.loading = false;
-                }
-            });
-    }
+  }
 }

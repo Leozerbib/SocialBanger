@@ -1,82 +1,121 @@
 import { Injectable } from '@angular/core';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { BehaviorSubject, Observable, throwError } from 'rxjs';
+import { catchError, map } from 'rxjs/operators';
 import { Router } from '@angular/router';
-import { HttpClient } from '@angular/common/http';
-import { BehaviorSubject, Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
 
-import { environment } from '../../../environment/environment';
+
+import { environment } from '../../../environments/environment';
 import { User } from '../../model/User/user.model';
+import { Response } from '../../model/util/response.model';
+import { LoginDto } from '../../model/User/login-dto.model';
+import { RegisterDto } from '../../model/User/register-dto.model';
 
-@Injectable({ providedIn: 'root' })
+@Injectable({
+  providedIn: 'root'
+})
 export class AccountService {
-    private userSubject: BehaviorSubject<User | null>;
-    public user: Observable<User | null>;
+  private userSubject: BehaviorSubject<User | null>;
+  public user: Observable<User | null>;
 
-    constructor(
-        private router: Router,
-        private http: HttpClient
-    ) {
-        this.userSubject = new BehaviorSubject(JSON.parse(localStorage.getItem('user')!));
-        this.user = this.userSubject.asObservable();
+  constructor(
+    private router: Router,
+    private http: HttpClient
+) {
+    this.userSubject = new BehaviorSubject(JSON.parse(localStorage.getItem('user')!));
+    this.user = this.userSubject.asObservable();
+}
+
+  public get userValue(): User | null {
+    return this.userSubject.value;
+  }
+
+  login(loginDto: LoginDto): Observable<Response<User>> {
+    return this.http.post<Response<User>>(`${environment.apiUrl}/user/Login`, loginDto)
+      .pipe(
+        map(response => {
+          if (response.success) {
+            localStorage.setItem('user', JSON.stringify(response.data));
+            this.userSubject.next(response.data);
+          }
+          return response;
+        }),
+        catchError(this.handleError)
+      );
+  }
+
+  logout() {
+    // remove user from local storage and set current user to null
+    localStorage.removeItem('user');
+    this.userSubject.next(null);
+    this.router.navigate(['/account/login']);
+}
+  register(registerDto: RegisterDto): Observable<Response<boolean>> {
+    return this.http.post<Response<boolean>>(`${environment.apiUrl}/user/register`, registerDto)
+      .pipe(
+        catchError(this.handleError)
+      );
+  }
+
+  update(id: number, user: User): Observable<Response<boolean>> {
+    return this.http.put<Response<boolean>>(`${environment.apiUrl}/user/update/${id}`, user)
+      .pipe(
+        map(response => {
+          if (response.success) {
+            localStorage.setItem('user', JSON.stringify(user));
+            this.userSubject.next(user);
+          }
+          return response;
+        }),
+        catchError(this.handleError)
+      );
+  }
+
+  delete(id: number): Observable<Response<boolean>> {
+    return this.http.delete<Response<boolean>>(`${environment.apiUrl}/user/delete/${id}`)
+      .pipe(
+        map(response => {
+          if (response.success && this.userValue?.id === id) {
+            localStorage.removeItem('user');
+            this.userSubject.next(null);
+          }
+          return response;
+        }),
+        catchError(this.handleError)
+      );
+  }
+
+  getById(id: number): Observable<Response<User>> {
+    return this.http.get<Response<User>>(`${environment.apiUrl}/user/getById/${id}`)
+      .pipe(
+        catchError(this.handleError)
+      );
+  }
+
+  getByName(name: string): Observable<Response<User>> {
+    return this.http.get<Response<User>>(`${environment.apiUrl}/user/getByName/${name}`)
+      .pipe(
+        catchError(this.handleError)
+      );
+  }
+
+  getAll(): Observable<Response<User[]>> {
+    return this.http.get<Response<User[]>>(`${environment.apiUrl}/user/getAll`)
+      .pipe(
+        catchError(this.handleError)
+      );
+  }
+
+  private handleError(error: HttpErrorResponse) {
+    let errorMessage = 'Unknown error!';
+    if (error.error instanceof ErrorEvent) {
+      // Client-side errors
+      errorMessage = `Error: ${error.error.message}`;
+    } else {
+      // Server-side errors
+      errorMessage = `Error Code: ${error.status}\nMessage: ${error.message}`;
     }
-
-    public get userValue() {
-        return this.userSubject.value;
-    }
-
-    login(LoginDto: {}) {
-        return this.http.post<User>(`${environment.apiUrl}/user/Login`, LoginDto)
-            .pipe(map(user => {
-                // store user details and jwt token in local storage to keep user logged in between page refreshes
-                localStorage.setItem('user', JSON.stringify(user));
-                this.userSubject.next(user);
-                return user;
-            }));
-    }
-
-    logout() {
-        // remove user from local storage and set current user to null
-        localStorage.removeItem('user');
-        this.userSubject.next(null);
-        this.router.navigate(['/account/login']);
-    }
-
-    register(RegisterDto : {}) {
-        return this.http.post(`${environment.apiUrl}/user/register`, RegisterDto);
-    }
-
-    getAll() {
-        return this.http.get<User[]>(`${environment.apiUrl}/users`);
-    }
-
-    getById(id: string) {
-        return this.http.get<User>(`${environment.apiUrl}/users/${id}`);
-    }
-
-    update(id: number, params: any) {
-        return this.http.put(`${environment.apiUrl}/users/${id}`, params)
-            .pipe(map(x => {
-                // update stored user if the logged in user updated their own record
-                if (id == this.userValue?.id) {
-                    // update local storage
-                    const user = { ...this.userValue, ...params };
-                    localStorage.setItem('user', JSON.stringify(user));
-
-                    // publish updated user to subscribers
-                    this.userSubject.next(user);
-                }
-                return x;
-            }));
-    }
-
-    delete(id: number) {
-        return this.http.delete(`${environment.apiUrl}/users/${id}`)
-            .pipe(map(x => {
-                // auto logout if the logged in user deleted their own record
-                if (id == this.userValue?.id) {
-                    this.logout();
-                }
-                return x;
-            }));
-    }
+    console.error(errorMessage);
+    return throwError(errorMessage);
+  }
 }

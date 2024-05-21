@@ -34,9 +34,11 @@ export class LoginComponent implements OnInit {
     }
 
     // convenience getter for easy access to form fields
-    
+    get f() { return this.form.controls; }
+
 
     onSubmit() {
+        console.log(this.form.value);
         this.submitted = true;
 
         // reset alerts on submit
@@ -49,6 +51,7 @@ export class LoginComponent implements OnInit {
 
         this.loading = true;
         this.loginDto = new LoginDto(this.form.value.username, this.form.value.password);
+        console.log(this.loginDto);
         this.accountService.login(this.loginDto)
             .pipe(first())
             .subscribe({

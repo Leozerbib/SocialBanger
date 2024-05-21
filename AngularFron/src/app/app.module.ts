@@ -2,8 +2,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
-
-// used to create fake backend
+import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { JwtInterceptor } from './util/jwt.interceptor';
@@ -12,25 +11,29 @@ import { AppComponent } from './app.component';
 import { AlertComponent } from './component/util/alert/alert.component';
 import { HomeComponent } from './component/page/home/home.component';
 
-@NgModule({
-    imports: [
-        BrowserModule,
-        ReactiveFormsModule,
-        HttpClientModule,
-        AppRoutingModule
-    ],
-    declarations: [
-        AppComponent,
-        AlertComponent,
-        HomeComponent
-    ],
-    providers: [
-        { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
-        { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
+// Import necessary Angular modules
+import { CommonModule } from '@angular/common'; // Import CommonModule for ngClass
+import { FormsModule } from '@angular/forms'; // Import FormsModule if needed for template-driven forms
 
-        // provider used to create fake backend
-        
-    ],
-    bootstrap: [AppComponent]
+@NgModule({
+  imports: [
+    BrowserModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    AppRoutingModule,
+    RouterModule, // Ensure RouterModule is imported
+    CommonModule, // Ensure CommonModule is imported
+    FormsModule // Import FormsModule if needed
+  ],
+  declarations: [
+    AppComponent,
+    AlertComponent,
+    HomeComponent
+  ],
+  providers: [
+    { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
+    { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
+  ],
+  bootstrap: [AppComponent]
 })
-export class AppModule { };
+export class AppModule { }
