@@ -70,6 +70,7 @@ public class UserControler {
 		User user = userServiceImpl.getUtilisateurByMail(loginUser.getEmail()).getData();
 		if (user != null) {
 			log.info("User trying to login : " + user.toString());
+			System.out.println("User trying to login : " + user.toString());
 			if (passwordUtils.matchPassword(loginUser.getPassword(), user.getPassword())) {
 				user.setUserStatus(UserStatus.Connected);
 				userServiceImpl.updateUtilisateur(user);
@@ -77,6 +78,7 @@ public class UserControler {
 			}
 			return Response.failedResponse("Login failed : wrong password");
 		}
+		System.out.println("Login failed : wrong email");
 		return Response.failedResponse("Login failed : wrong email");
 	}
 	

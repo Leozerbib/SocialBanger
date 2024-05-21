@@ -4,7 +4,10 @@
 import { AccountService } from './service/User/uer-service.service';
 import { User } from './model/User/user.model';
 
-@Component({ selector: 'app-root', templateUrl: 'app.component.html' })
+@Component({ 
+    selector: 'app-root', 
+    templateUrl: 'app.component.html' 
+})
 export class AppComponent {
     user?: User | null;
 
