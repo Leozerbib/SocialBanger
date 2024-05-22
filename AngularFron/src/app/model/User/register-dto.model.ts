@@ -9,7 +9,7 @@ export class RegisterDto {
     password: string;
     age: number;
     gender: string;
-    interests: Set<Interest>;
+    interests: Interest[];
     country: Country;
 
     constructor(
@@ -20,7 +20,7 @@ export class RegisterDto {
         password: string,
         age: number,
         gender: string,
-        interests: Set<Interest>,
+        interests: Interest[],
         country: Country
     ) {
         this.firstName = firstName;

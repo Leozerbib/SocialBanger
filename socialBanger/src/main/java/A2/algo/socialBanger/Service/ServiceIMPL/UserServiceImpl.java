@@ -26,11 +26,9 @@ public class UserServiceImpl implements UserService{
 	
 	
 	@Override
-	public Response<Boolean> addUtilisateur(User user) {
+	public Response<User> addUtilisateur(User user) {
 		System.out.println("User created : " + user.toString());
-		System.out.println(userRepository.save(user));
-		
-		return null;
+		return Response.successfulResponse("User created",userRepository.save(user));
 	}
 
 	@Override

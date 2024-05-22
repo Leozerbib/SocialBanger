@@ -3,7 +3,12 @@
 import { User } from '../../../model/User/user.model';
 import { AccountService } from '../../../service/User/uer-service.service';
 
-@Component({ templateUrl: 'home.component.html' })
+@Component({ 
+    templateUrl: 'home.component.html',
+    styleUrls: [
+        'home.component.scss',
+    ]
+ })
 export class HomeComponent {
     user: User | null;
 

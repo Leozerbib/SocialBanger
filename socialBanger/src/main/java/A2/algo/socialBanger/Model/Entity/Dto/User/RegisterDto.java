@@ -1,7 +1,9 @@
 package A2.algo.socialBanger.Model.Entity.Dto.User;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,12 +46,12 @@ public class RegisterDto {
 
     private String gender;
 
-    private Set<Interest> interests = new HashSet<>();
+    private List<Interest> interests = new ArrayList<Interest>();
 
     private Country country;
 
 	public RegisterDto(String firstName, String lastName,String Username, String email, String password, Integer age, String gender,
-			Set<Interest> interests, Country country) {
+			List<Interest> interests, Country country) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;

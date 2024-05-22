@@ -6,6 +6,19 @@
     margin-top: 0.97rem;
 }
 
+html, body{height:100%;} 
+#outer{
+min-height:100%;
+}
+
+
+
+.h100,.r{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 .badge-primary {
     border-radius: 15px;
     background-color:   #4f94cd;

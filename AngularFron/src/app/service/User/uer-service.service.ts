@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { BehaviorSubject, Observable, throwError } from 'rxjs';
+import { BehaviorSubject, Observable, throwError, of } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 import { Router } from '@angular/router';
+import {  tap } from 'rxjs/operators';
 
 
 import { environment } from '../../../environments/environment';
@@ -50,12 +51,20 @@ export class AccountService {
     this.userSubject.next(null);
     this.router.navigate(['/account/login']);
 }
-  register(registerDto: RegisterDto): Observable<Response<boolean>> {
-    return this.http.post<Response<boolean>>(`${environment.apiUrl}/user/register`, registerDto)
-      .pipe(
-        catchError(this.handleError)
-      );
-  }
+register(createUser: RegisterDto): Observable<Response<User>> {
+  return this.http.post<Response<User>>(`${environment.apiUrl}/user/Register`, createUser)
+    .pipe(
+      map(response => {
+        if (response.success) {
+          localStorage.setItem('user', JSON.stringify(response.data));
+          this.userSubject.next(response.data);
+        }
+        return response;
+      }),
+      catchError(this.handleError)
+    );
+}
+
 
   update(id: number, user: User): Observable<Response<boolean>> {
     return this.http.put<Response<boolean>>(`${environment.apiUrl}/user/update/${id}`, user)

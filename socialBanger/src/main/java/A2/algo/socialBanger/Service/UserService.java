@@ -8,7 +8,7 @@ import A2.algo.socialBanger.Model.Entity.User;
 
 public interface UserService {
 	
-	public Response<Boolean> addUtilisateur(User user);
+	public Response<User> addUtilisateur(User user);
 	public Response<Boolean> deleteUtilisateur(Long id);
 	public Response<Boolean> updateUtilisateur(User user);
 	
