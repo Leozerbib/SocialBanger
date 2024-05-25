@@ -23,6 +23,7 @@ import { NavbarComponent } from './component/util/navbar/navbar.component';
 import { ProgressSpinnerModule } from 'primeng/progressspinner';
 import { PanelModule } from 'primeng/panel';
 import { AvatarModule } from 'primeng/avatar';
+import { CardCompteComponent } from './component/page/template/card-compte/card-compte.component';
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { AvatarModule } from 'primeng/avatar';
     HomeComponent,
     CardAmisComponent,
     CardPublicationComponent,
-    NavbarComponent
+    NavbarComponent,
+    CardCompteComponent
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },

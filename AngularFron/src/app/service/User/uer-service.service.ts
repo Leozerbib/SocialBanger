@@ -11,6 +11,7 @@ import { User } from '../../model/User/user.model';
 import { Response } from '../../model/util/response.model';
 import { LoginDto } from '../../model/User/login-dto.model';
 import { RegisterDto } from '../../model/User/register-dto.model';
+import { UserDto } from '../../model/User/user-dto.model';
 
 @Injectable({
   providedIn: 'root'
@@ -64,6 +65,21 @@ register(createUser: RegisterDto): Observable<Response<User>> {
       catchError(this.handleError)
     );
 }
+
+communInterest(id: number): Observable<Response<UserDto[]>> {
+  return this.http.get<Response<UserDto[]>>(`${environment.apiUrl}/user/Interest/Commun?id=${id}`)
+    .pipe(
+      map(response => {
+        if (response.success) {
+          localStorage.setItem('communinterest', JSON.stringify(response.data));
+          console.log(response.data);
+        }
+        return response;
+      }),
+      catchError(this.handleError)
+    );
+}
+
 
 
   update(id: number, user: User): Observable<Response<boolean>> {

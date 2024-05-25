@@ -5,6 +5,7 @@ import { User } from '../../../model/User/user.model';
 import { AccountService } from '../../../service/User/uer-service.service';
 import { PostService } from '../../../service/Post/post.service';
 import { Post } from '../../../model/Post/post.model';
+import { UserDto } from '../../../model/User/user-dto.model';
 
 
 @Component({ 
@@ -18,6 +19,7 @@ export class HomeComponent implements OnInit{
     user: User | null;
     id!:any;
     posts: Post[] = [];
+    userCommun: UserDto[] = [];
     errorMessage: string = '';
     
     constructor(private accountService: AccountService,private PostService: PostService) {
@@ -29,9 +31,9 @@ export class HomeComponent implements OnInit{
         this.PostService.getAllPostSub(this.id).subscribe({
             next: (response) => {
               if (response.success) {
-                for (let i = 0; i < response.data.length; i++) {
+                  for (let i = 0; i < response.data.length; i++) {
                     const intereste: Post = response.data[i];
-                  this.posts.push(intereste);
+                    this.posts.push(intereste);
                 }
               } else {
                 this.errorMessage = response.message;
@@ -41,6 +43,26 @@ export class HomeComponent implements OnInit{
               this.errorMessage = 'An error occurred while fetching interests';
               console.error(err);
             }
-          });;
+          });
+        this.accountService.communInterest(this.id).subscribe({
+            next: (response) => {
+              if (response.success) {
+                  for (let i = 0; i < response.data.length; i++) {
+                    const user: UserDto = UserDto.fromJson(response.data[i]);
+                    console.log(user);
+                    this.userCommun.push(user);
+                }
+              } else {
+                this.errorMessage = response.message;
+                console.log(response.message);
+              }
+              console.log(this.userCommun[0].userStatus);
+              
+            },
+            error: (err) => {
+              this.errorMessage = 'An error occurred while fetching interests';
+              console.error(err);
+            }
+          });
     }
 }
