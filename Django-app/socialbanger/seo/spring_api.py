@@ -22,6 +22,16 @@ class SpringAPIClient:
         response.raise_for_status()
         return response.json()
 
+
+    ################ INTERSEST ################
+
+    def get_all_interests(self):
+        url = f"{self.base_url}/interest/getAll"
+        response = requests.get(url)
+        response.raise_for_status()
+        return response.json()
+
+
     ################ ADD MORE FUNCTIONS HERE ################
 
     # TODO: 1- DEFINE ALL ACCESSOR IN CONTROLLERS

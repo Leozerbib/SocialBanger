@@ -19,9 +19,18 @@ def user_detail(request, user_id):
     return render(request, 'spring-api-detail.html', {'user': user, 'status': status, 'message': message})
 
 
+def interest_list(request):
+    interests_data = get_all_interests_from_api()
+    interests = interests_data.get('data', [])
+    status = interests_data.get('status', 'error')
+    message = interests_data.get('message', '')
+
+    return render(request, 'spring-api-communication.html', {'interests': interests, 'status': status, 'message': message})
+
 
 # Define user with similar interest (for recommendation)
 def calculate_common_interests(user_id):
+    user_data = get_one_users_from_api(user_id)
     user_interests = UserInterests.objects.filter(user_id=user_id)
     similar_users = UserInterests.objects.filter(interest_id__in=[ui.interest_id for ui in user_interests]).exclude(user_id=user_id).values('user_id').annotate(common_interests=Count('user_id')).order_by('-common_interests')
     return similar_users
