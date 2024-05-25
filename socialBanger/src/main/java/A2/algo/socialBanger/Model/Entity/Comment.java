@@ -2,8 +2,11 @@ package A2.algo.socialBanger.Model.Entity;
 
 import java.time.LocalDateTime;
 
+import A2.algo.socialBanger.Model.Entity.Abstract.UserPlus;
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -24,14 +27,11 @@ public class Comment {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "user_id", referencedColumnName = "id")
-    private User user;
+    private UserPlus user;
 
-    @ManyToOne
-    @JoinColumn(name = "post_id", referencedColumnName = "id")
-    private Post post;
-
+    
     @Column
     private String content;
 
@@ -40,4 +40,13 @@ public class Comment {
 
     @Column
     private LocalDateTime updatedAt;
+
+	public Comment(Long id, UserPlus user, String content) {
+		super();
+		this.id = id;
+		this.user = user;
+		this.content = content;
+	}
+    
+    
 }

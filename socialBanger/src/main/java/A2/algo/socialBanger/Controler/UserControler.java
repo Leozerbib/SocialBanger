@@ -1,7 +1,9 @@
 package A2.algo.socialBanger.Controler;
 
 import java.time.LocalDateTime;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -10,12 +12,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import A2.algo.socialBanger.Config.PasswordUtils;
 import A2.algo.socialBanger.Config.Response;
+import A2.algo.socialBanger.Model.Entity.Interest;
 import A2.algo.socialBanger.Model.Entity.User;
+import A2.algo.socialBanger.Model.Entity.Abstract.UserPlus;
 import A2.algo.socialBanger.Model.Entity.Dto.User.LoginDto;
 import A2.algo.socialBanger.Model.Entity.Dto.User.RegisterDto;
 import A2.algo.socialBanger.Model.Entity.Enums.Gender;
@@ -50,16 +55,18 @@ public class UserControler {
         return HELLO_TEXT;
     }
 	
-	@PostMapping("/register")
-	public Response<Boolean> register(@RequestBody RegisterDto createUser) {
+	@PostMapping("/Register")
+	public Response<User> register(@RequestBody RegisterDto createUser) {
 	    if (createUser == null) {
+	    	System.out.println("User null");
 	        return Response.failedResponse("User null");
 	    }
 	    if (userServiceImpl.getUtilisateurByMail(createUser.getEmail()).getData()!=null ) {
-			return Response.failedResponse("mail already exist");
+			System.out.println("mail already exist");
+	    	return Response.failedResponse("mail already exist");
 	    }
-	    
-	    User user = new User(createUser.getFirstName(), createUser.getLastName(),createUser.getUsername(), createUser.getEmail(), passwordUtils.encryptPassword(createUser.getPassword()), LocalDateTime.now(), LocalDateTime.now(), UserStatus.Connected, createUser.getAge(), Gender.StringToGender(createUser.getGender()), createUser.getInterests(), createUser.getCountry());
+	    Set<Interest> interests = new HashSet<Interest>(createUser.getInterests());
+	    User user = new User(createUser.getFirstName(), createUser.getLastName(),createUser.getUsername(), createUser.getEmail(), passwordUtils.encryptPassword(createUser.getPassword()), LocalDateTime.now(), LocalDateTime.now(), UserStatus.Connected, createUser.getAge(), Gender.StringToGender(createUser.getGender()), interests , createUser.getCountry());
 	    System.out.println("User created : " + user.toString());
 	    return userServiceImpl.addUtilisateur(user);
 	}
@@ -81,6 +88,16 @@ public class UserControler {
 		System.out.println("Login failed : wrong email");
 		return Response.failedResponse("Login failed : wrong email");
 	}
+	
+	@GetMapping("/Interest/Commun")
+	public Response<List<UserPlus>> CommunInterest(@RequestParam int id){
+		List<UserPlus> userPlus = userServiceImpl.getAllUtilisateurByCommunInterest(id).getData();
+		if (userPlus.isEmpty()) {
+			return Response.failedResponse("No User Found");
+		} 
+		return Response.successfulResponse("Succes", userPlus);
+	}
+	
 	
 	@PostMapping("/update")
 	public Response<Boolean> update(@RequestBody RegisterDto updateUser) {

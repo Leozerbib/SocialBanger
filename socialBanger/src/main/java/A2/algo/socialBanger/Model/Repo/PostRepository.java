@@ -13,6 +13,8 @@ import A2.algo.socialBanger.Model.Entity.User;
 public interface PostRepository extends JpaRepository<Post, Long> {
     @Query("SELECT p FROM Post p WHERE p.user = ?1")
     List<Post> findPostsByUser(User user);
+    
+    List<Post> findByUserSub(int id);
 
     // Exemple d'insertion : postRepository.save(new Post(...));
     // Exemple de mise à jour : postRepository.save(existingPost);

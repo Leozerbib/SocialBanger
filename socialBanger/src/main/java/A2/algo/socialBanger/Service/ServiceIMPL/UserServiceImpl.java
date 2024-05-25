@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import A2.algo.socialBanger.Config.Response;
 import A2.algo.socialBanger.Model.Entity.User;
+import A2.algo.socialBanger.Model.Entity.Abstract.UserPlus;
 import A2.algo.socialBanger.Model.Repo.UserRepository;
 import A2.algo.socialBanger.Service.UserService;
 import jakarta.persistence.NamedQuery;
@@ -26,11 +27,9 @@ public class UserServiceImpl implements UserService{
 	
 	
 	@Override
-	public Response<Boolean> addUtilisateur(User user) {
+	public Response<User> addUtilisateur(User user) {
 		System.out.println("User created : " + user.toString());
-		System.out.println(userRepository.save(user));
-		
-		return null;
+		return Response.successfulResponse("User created",userRepository.save(user));
 	}
 
 	@Override
@@ -82,6 +81,12 @@ public class UserServiceImpl implements UserService{
 			return Response.successfulResponse("Users found", users);
 		}
 		return Response.failedResponse("Users not found");
+	}
+	
+	@Override
+	public Response<List<UserPlus>> getAllUtilisateurByCommunInterest(int id){
+		return Response.successfulResponse("All User Found",userRepository.findByInterest(id));
+		
 	}
 
 }

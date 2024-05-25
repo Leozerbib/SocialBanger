@@ -14,6 +14,17 @@ import { HomeComponent } from './component/page/home/home.component';
 // Import necessary Angular modules
 import { CommonModule } from '@angular/common'; // Import CommonModule for ngClass
 import { FormsModule } from '@angular/forms'; // Import FormsModule if needed for template-driven forms
+import { CardAmisComponent } from './component/page/template/card-amis/card-amis.component';
+import { CardPublicationComponent } from './component/page/template/card-publication/card-publication.component';
+import { ButtonModule } from 'primeng/button';
+import { CardModule } from 'primeng/card';
+import { TabMenuModule } from 'primeng/tabmenu';
+import { NavbarComponent } from './component/util/navbar/navbar.component';
+import { ProgressSpinnerModule } from 'primeng/progressspinner';
+import { PanelModule } from 'primeng/panel';
+import { AvatarModule } from 'primeng/avatar';
+import { CardCompteComponent } from './component/page/template/card-compte/card-compte.component';
+
 
 @NgModule({
   imports: [
@@ -23,12 +34,22 @@ import { FormsModule } from '@angular/forms'; // Import FormsModule if needed fo
     AppRoutingModule,
     RouterModule, // Ensure RouterModule is imported
     CommonModule, // Ensure CommonModule is imported
-    FormsModule // Import FormsModule if needed
+    FormsModule, // Import FormsModule if needed
+    ButtonModule,
+    CardModule,
+    TabMenuModule,
+    ProgressSpinnerModule,
+    PanelModule,
+    AvatarModule
   ],
   declarations: [
     AppComponent,
     AlertComponent,
-    HomeComponent
+    HomeComponent,
+    CardAmisComponent,
+    CardPublicationComponent,
+    NavbarComponent,
+    CardCompteComponent
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },

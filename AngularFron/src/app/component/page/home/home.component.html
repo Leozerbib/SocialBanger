@@ -1,8 +1,52 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark px-3 w-full" style="height: 7%;" *ngIf="user">
+    <app-navbar class="h-full w-full"></app-navbar>
+</nav>
+<div class="p-4 h-full">
+    <div class="row w-100 h-full">
+        <div class="col-3 amis-box h-full p-3">
+            <div class="card h-full">
+                <div class="p-2 ">
+                    <app-card-amis friendName="John Doe" [isConnected]="true" class="w-100 h-full"></app-card-amis>
+                </div>
+                <div class="p-2 ">
+                    <app-card-amis friendName="John Doe" [isConnected]="false" class="w-100 h-full"></app-card-amis>
+                </div>            
+            </div>
+        </div>
+        <div class="col-6 container-fluid feed-box h-full p-3">
+            <div class="card w-full h-full">
+                <div *ngIf="posts.length == 0" class="flex w-full h-full p-2 align-item-center justify-content-center" style="overflow: hidden;">
+                    <p-progressSpinner 
+                        styleClass="w-4rem h-4rem" 
+                        strokeWidth="8" 
+                        fill="var(--surface-ground)" 
+                        animationDuration=".5s" />
+                </div>
+                <div *ngIf="posts.length > 0" class="w-full h-full p-2" style="overflow-y: scroll;">
+                    <app-card-publication *ngFor="let post of posts" [post]="post" class="w-full p-2" ></app-card-publication>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 container-fluid ref-box h-full p-2">
+            <div class="card w-full h-full">
+                <div class="flex flex-row w-full" style="height: 50%;">
+                    <div *ngIf="userCommun.length == 0" class="w-full h-full p-2 align-item-center justify-content-center" style="overflow: hidden;">
+                        <p-progressSpinner 
+                            styleClass="w-4rem h-4rem" 
+                            strokeWidth="8" 
+                            fill="var(--surface-ground)" 
+                            animationDuration=".5s" />
+                    </div>
+                    <div class="flex flex-col w-full p-1 flex-wrap" *ngIf="userCommun.length > 0" style="overflow: hidden; overflow-y: scroll;">
+                        <app-card-compte class="flex flex-row w-full h-3" *ngFor="let userss of userCommun" [user]="userss"></app-card-compte>
+                    </div>
+                </div>
+                <div class="flex flex-row w-full" style="height: 50%;">
+                    <div class="flex flex-col w-full h-full p-1">
 
-<div class="p-4">
-    <div class="container">
-        <h1>Hi {{user?.firstName}}!</h1>
-        <p>You're logged in with Angular 14!!</p>
-        <p><a routerLink="/users">Manage Users</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

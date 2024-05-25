@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+app-root {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+:host {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+@import "primeicons/primeicons.css";

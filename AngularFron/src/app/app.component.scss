@@ -6,6 +6,15 @@
     margin-top: 0.97rem;
 }
 
+html, body{height:100%;} 
+#outer{
+min-height:100%;
+}
+@import "primeicons/primeicons.css";
+
+
+
+
 .badge-primary {
     border-radius: 15px;
     background-color:   #4f94cd;

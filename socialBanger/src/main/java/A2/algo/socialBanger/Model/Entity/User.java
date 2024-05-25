@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.JdbcType;
 import org.hibernate.annotations.JdbcTypeCode;
 import org.hibernate.type.SqlTypes;
@@ -16,6 +17,7 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -106,7 +108,7 @@ public class User {
     
     private int count_subscriptions;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
             name = "user_interests",
             joinColumns = @JoinColumn(name = "user_id"),
@@ -118,13 +120,13 @@ public class User {
     @JoinColumn(name = "country_id", referencedColumnName = "id")
     private Country country;
     
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "user" ,fetch = FetchType.LAZY)
     private Set<Subscription> subscriptions = new HashSet<>();
     
-    @OneToMany(mappedBy = "subscribedUser")
+    @OneToMany(mappedBy = "subscribedUser" ,fetch = FetchType.LAZY)
     private Set<Subscription> subscribers = new HashSet<>();
     
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "user",fetch = FetchType.LAZY)
     private Set<Post> posts = new HashSet<>();
 
 	public User(Long id, String firstName, String lastName, String username, LocalDateTime createdAt, UserStatus userStatus, Integer age,
