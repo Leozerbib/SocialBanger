@@ -10,14 +10,10 @@ html, body{height:100%;}
 #outer{
 min-height:100%;
 }
+@import "primeicons/primeicons.css";
 
 
 
-.h100,.r{
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-}
 
 .badge-primary {
     border-radius: 15px;

@@ -1,0 +1,17 @@
+<div class="card" style="width: 100%; height: 100%;">
+    <div class="card-body row text-center h100 p-2" style="border: 1px red solid;">
+      <div class="col-3 h100" style="border: 1px red solid; height: 100%;display: flex; flex-direction: row; align-items: center;justify-content: center;">
+        <i class="bi bi-person-circle w-100" style="font-size: 2rem;height: 100%;"></i>
+      </div>
+      <div class="col-9">
+        <h5 class="card-title">{{ friendName }}</h5>
+        <p class="card-text">
+            <span [ngClass]="{'text-success': isConnected, 'text-danger': !isConnected}">
+            {{ isConnected ? 'Connected' : 'Disconnected' }}
+            </span>
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  

@@ -1,13 +1,8 @@
 <!-- nav -->
-<nav class="navbar navbar-expand navbar-dark bg-dark px-3" *ngIf="user">
-  <div class="navbar-nav">
-      <a class="nav-item nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
-      <button class="btn btn-link nav-item nav-link" (click)="logout()">Logout</button>
-  </div>
-</nav>
+
 
 <!-- main app container -->
-<div class="app-container h100" [ngClass]="{ 'bg-light': user }">
+<div class="app-container" style="height: 93%; border: 1px solid red;" [ngClass]="{ 'bg-light': user }">
   <alert></alert>
-  <router-outlet class="r"></router-outlet>
+  <router-outlet class="h-full" ></router-outlet>
 </div>

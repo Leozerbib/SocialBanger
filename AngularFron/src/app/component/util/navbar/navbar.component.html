@@ -1,0 +1,25 @@
+<div class="navbar-nav flex flex-row h-full w-full ">
+    <div class="w-3 flex flex-row">
+    </div>
+    <div class="w-7 flex flex-row h-full bg-dark align-item-center" style="padding: 0%; margin: 0;" >
+        <ul class="flex flex-row w-full h-full" style="padding: 0%; margin: 0;">
+            <li>
+                <a class="nav-item nav-link w-3" routerLink="/" routerLinkActive="active">Home</a>
+            </li>
+            <li>
+                <a class="nav-item nav-link" routerLink="/" routerLinkActive="active">For You</a>
+            </li>
+            <li>
+                <a class="nav-item nav-link" routerLink="/home" routerLinkActive="active">Publications</a>
+            </li>
+            <li>
+                <a class="nav-item nav-link" routerLink="/" routerLinkActive="active" (click)="logout()">{{items[4].label}}</a>
+            </li>
+        </ul>
+    </div>
+    <div class="w-2">
+      <div class="flex flex-row justify-content-end">
+        <a class="nav-item nav-link" routerLink="/profile" routerLinkActive="active">Profile</a>
+      </div>
+    </div>
+</div>

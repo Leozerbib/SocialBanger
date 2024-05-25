@@ -1,0 +1,17 @@
+.p-tabmenu {
+    width: 100%;
+    height: 40px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.p-tabmenu-nav .p-tabmenuitem {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color .3s;
+}

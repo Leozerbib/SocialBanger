@@ -1,20 +1,35 @@
-
-<div class="container-fluid p-4 h100">
-    <div class="row w-100 h100">
-        <div class="col-3 container-fluid amis-box h100 p-3">
-            <div class="card h100">
-
+<nav class="navbar navbar-expand navbar-dark bg-dark px-3 w-full" style="height: 7%;" *ngIf="user">
+    <app-navbar class="h-full w-full"></app-navbar>
+</nav>
+<div class="p-4 h-full">
+    <div class="row w-100 h-full">
+        <div class="col-2 amis-box h-full p-3">
+            <div class="card h-full">
+                <div class="p-2 ">
+                    <app-card-amis friendName="John Doe" [isConnected]="true" class="w-100 h-full"></app-card-amis>
+                </div>
+                <div class="p-2 ">
+                    <app-card-amis friendName="John Doe" [isConnected]="false" class="w-100 h-full"></app-card-amis>
+                </div>            
+            </div>
+        </div>
+        <div class="col-7 container-fluid feed-box h-full p-3">
+            <div class="card w-full h-full">
+                <div *ngIf="posts.length == 0" class="flex w-full h-full p-2 align-item-center justify-content-center" style="overflow: hidden;">
+                    <p-progressSpinner 
+                        styleClass="w-4rem h-4rem" 
+                        strokeWidth="8" 
+                        fill="var(--surface-ground)" 
+                        animationDuration=".5s" />
+                </div>
+                <div *ngIf="posts.length > 0" class="w-full h-full p-2" style="overflow-y: scroll;">
+                    <app-card-publication *ngFor="let post of posts" [post]="post" class="w-full p-2" ></app-card-publication>
+                </div>
             </div>
             <p>oui</p>
         </div>
-        <div class="col-6 container-fluid feed-box h100 p-3">
-            <div class="card h100">
-
-            </div>
-            <p>oui</p>
-        </div>
-        <div class="col-3 container-fluid ref-box h100 p-3">
-            <div class="card h100">
+        <div class="col-3 container-fluid ref-box h-full p-3">
+            <div class="card h-full">
                 <div>
                     
                 </div>

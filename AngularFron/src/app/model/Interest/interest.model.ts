@@ -8,4 +8,8 @@ export class Interest {
         this.category = category;
         this.subcategory = subcategory;
     }
+
+    public static fromJson(json: any): Interest {
+        return new Interest(json.id, json.category, json.subcategory);
+    }
 }

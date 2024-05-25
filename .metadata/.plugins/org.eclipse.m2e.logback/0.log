@@ -4039,3 +4039,902 @@
 2024-05-23 00:23:40,341 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-05-23 00:23:40,476 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-05-23 00:23:40,487 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-23 21:42:55,106 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-05-23 21:49:17,599 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345 [628])
+2024-05-23 21:49:17,603 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345
+2024-05-23 21:49:17,603 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\aopalliance-1.0.jar
+2024-05-23 21:49:17,604 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\guice-5.1.0.jar
+2024-05-23 21:49:17,604 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpclient-4.5.14.jar
+2024-05-23 21:49:17,604 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpcore-4.4.16.jar
+2024-05-23 21:49:17,604 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jansi-2.4.0.jar
+2024-05-23 21:49:17,604 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jcl-over-slf4j-1.7.36.jar
+2024-05-23 21:49:17,604 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-artifact-3.9.5.jar
+2024-05-23 21:49:17,605 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-builder-support-3.9.5.jar
+2024-05-23 21:49:17,605 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-compat-3.9.5.jar
+2024-05-23 21:49:17,605 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-core-3.9.5.jar
+2024-05-23 21:49:17,605 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-embedder-3.9.5.jar
+2024-05-23 21:49:17,605 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-3.9.5.jar
+2024-05-23 21:49:17,605 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-builder-3.9.5.jar
+2024-05-23 21:49:17,606 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-plugin-api-3.9.5.jar
+2024-05-23 21:49:17,606 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-repository-metadata-3.9.5.jar
+2024-05-23 21:49:17,606 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-api-1.9.16.jar
+2024-05-23 21:49:17,606 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-connector-basic-1.9.16.jar
+2024-05-23 21:49:17,606 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-impl-1.9.16.jar
+2024-05-23 21:49:17,606 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-named-locks-1.9.16.jar
+2024-05-23 21:49:17,606 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-provider-3.9.5.jar
+2024-05-23 21:49:17,607 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-spi-1.9.16.jar
+2024-05-23 21:49:17,607 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-file-1.9.16.jar
+2024-05-23 21:49:17,607 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-http-1.9.16.jar
+2024-05-23 21:49:17,607 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-wagon-1.9.16.jar
+2024-05-23 21:49:17,607 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-util-1.9.16.jar
+2024-05-23 21:49:17,607 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-3.9.5.jar
+2024-05-23 21:49:17,608 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-builder-3.9.5.jar
+2024-05-23 21:49:17,608 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-shared-utils-3.3.4.jar
+2024-05-23 21:49:17,608 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.inject-0.3.5.jar
+2024-05-23 21:49:17,608 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2024-05-23 21:49:17,608 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-build-api-0.0.7.jar
+2024-05-23 21:49:17,608 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-cipher-2.0.jar
+2024-05-23 21:49:17,609 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-classworlds-2.7.0.jar
+2024-05-23 21:49:17,609 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-component-annotations-2.1.0.jar
+2024-05-23 21:49:17,609 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-interpolation-1.26.jar
+2024-05-23 21:49:17,609 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-sec-dispatcher-2.0.jar
+2024-05-23 21:49:17,609 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-utils-3.5.1.jar
+2024-05-23 21:49:17,610 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-file-3.5.3.jar
+2024-05-23 21:49:17,610 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-3.5.3.jar
+2024-05-23 21:49:17,610 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-shared-3.5.3.jar
+2024-05-23 21:49:17,610 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-provider-api-3.5.3.jar
+2024-05-23 21:49:17,612 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [12])
+2024-05-23 21:49:17,612 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava_32.1.3.jre.jar
+2024-05-23 21:49:17,612 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [988])
+2024-05-23 21:49:17,613 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\slf4j.api_2.0.12.jar
+2024-05-23 21:49:17,613 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [29])
+2024-05-23 21:49:17,613 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-05-23 21:49:17,613 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [24])
+2024-05-23 21:49:17,613 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-05-23 21:49:17,613 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [71])
+2024-05-23 21:49:17,614 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.cli_1.6.0.jar
+2024-05-23 21:49:17,614 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [75])
+2024-05-23 21:49:17,614 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-05-23 21:49:17,614 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [1004])
+2024-05-23 21:49:17,614 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-05-23 21:49:17,614 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [13])
+2024-05-23 21:49:17,615 [Worker-49: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-05-23 21:49:17,623 [Worker-49: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger":
+2024-05-23 21:49:17,627 [Worker-49: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always spring-boot:run
+2024-05-24 19:37:36,858 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-05-24 19:41:15,004 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345 [628])
+2024-05-24 19:41:15,006 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345
+2024-05-24 19:41:15,006 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\aopalliance-1.0.jar
+2024-05-24 19:41:15,006 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\guice-5.1.0.jar
+2024-05-24 19:41:15,007 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpclient-4.5.14.jar
+2024-05-24 19:41:15,007 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpcore-4.4.16.jar
+2024-05-24 19:41:15,007 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jansi-2.4.0.jar
+2024-05-24 19:41:15,007 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jcl-over-slf4j-1.7.36.jar
+2024-05-24 19:41:15,007 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-artifact-3.9.5.jar
+2024-05-24 19:41:15,008 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-builder-support-3.9.5.jar
+2024-05-24 19:41:15,008 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-compat-3.9.5.jar
+2024-05-24 19:41:15,008 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-core-3.9.5.jar
+2024-05-24 19:41:15,008 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-embedder-3.9.5.jar
+2024-05-24 19:41:15,009 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-3.9.5.jar
+2024-05-24 19:41:15,009 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-builder-3.9.5.jar
+2024-05-24 19:41:15,009 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-plugin-api-3.9.5.jar
+2024-05-24 19:41:15,009 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-repository-metadata-3.9.5.jar
+2024-05-24 19:41:15,009 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-api-1.9.16.jar
+2024-05-24 19:41:15,009 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-connector-basic-1.9.16.jar
+2024-05-24 19:41:15,009 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-impl-1.9.16.jar
+2024-05-24 19:41:15,009 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-named-locks-1.9.16.jar
+2024-05-24 19:41:15,010 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-provider-3.9.5.jar
+2024-05-24 19:41:15,010 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-spi-1.9.16.jar
+2024-05-24 19:41:15,010 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-file-1.9.16.jar
+2024-05-24 19:41:15,010 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-http-1.9.16.jar
+2024-05-24 19:41:15,010 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-wagon-1.9.16.jar
+2024-05-24 19:41:15,010 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-util-1.9.16.jar
+2024-05-24 19:41:15,011 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-3.9.5.jar
+2024-05-24 19:41:15,011 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-builder-3.9.5.jar
+2024-05-24 19:41:15,011 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-shared-utils-3.3.4.jar
+2024-05-24 19:41:15,011 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.inject-0.3.5.jar
+2024-05-24 19:41:15,011 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2024-05-24 19:41:15,011 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-build-api-0.0.7.jar
+2024-05-24 19:41:15,011 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-cipher-2.0.jar
+2024-05-24 19:41:15,011 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-classworlds-2.7.0.jar
+2024-05-24 19:41:15,011 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-component-annotations-2.1.0.jar
+2024-05-24 19:41:15,012 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-interpolation-1.26.jar
+2024-05-24 19:41:15,012 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-sec-dispatcher-2.0.jar
+2024-05-24 19:41:15,012 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-utils-3.5.1.jar
+2024-05-24 19:41:15,012 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-file-3.5.3.jar
+2024-05-24 19:41:15,012 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-3.5.3.jar
+2024-05-24 19:41:15,012 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-shared-3.5.3.jar
+2024-05-24 19:41:15,012 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-provider-api-3.5.3.jar
+2024-05-24 19:41:15,014 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [12])
+2024-05-24 19:41:15,015 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava_32.1.3.jre.jar
+2024-05-24 19:41:15,015 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [988])
+2024-05-24 19:41:15,015 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\slf4j.api_2.0.12.jar
+2024-05-24 19:41:15,015 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [29])
+2024-05-24 19:41:15,016 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-05-24 19:41:15,016 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [24])
+2024-05-24 19:41:15,016 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-05-24 19:41:15,016 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [71])
+2024-05-24 19:41:15,016 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.cli_1.6.0.jar
+2024-05-24 19:41:15,016 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [75])
+2024-05-24 19:41:15,017 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-05-24 19:41:15,017 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [1004])
+2024-05-24 19:41:15,017 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-05-24 19:41:15,017 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [13])
+2024-05-24 19:41:15,017 [Worker-16: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-05-24 19:41:15,182 [Worker-16: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger":
+2024-05-24 19:41:15,196 [Worker-16: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always spring-boot:run
+2024-05-24 20:43:09,010 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345 [628])
+2024-05-24 20:43:09,022 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345
+2024-05-24 20:43:09,023 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\aopalliance-1.0.jar
+2024-05-24 20:43:09,023 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\guice-5.1.0.jar
+2024-05-24 20:43:09,024 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpclient-4.5.14.jar
+2024-05-24 20:43:09,024 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpcore-4.4.16.jar
+2024-05-24 20:43:09,024 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jansi-2.4.0.jar
+2024-05-24 20:43:09,024 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jcl-over-slf4j-1.7.36.jar
+2024-05-24 20:43:09,025 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-artifact-3.9.5.jar
+2024-05-24 20:43:09,025 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-builder-support-3.9.5.jar
+2024-05-24 20:43:09,025 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-compat-3.9.5.jar
+2024-05-24 20:43:09,026 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-core-3.9.5.jar
+2024-05-24 20:43:09,026 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-embedder-3.9.5.jar
+2024-05-24 20:43:09,026 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-3.9.5.jar
+2024-05-24 20:43:09,026 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-builder-3.9.5.jar
+2024-05-24 20:43:09,026 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-plugin-api-3.9.5.jar
+2024-05-24 20:43:09,027 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-repository-metadata-3.9.5.jar
+2024-05-24 20:43:09,027 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-api-1.9.16.jar
+2024-05-24 20:43:09,027 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-connector-basic-1.9.16.jar
+2024-05-24 20:43:09,027 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-impl-1.9.16.jar
+2024-05-24 20:43:09,027 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-named-locks-1.9.16.jar
+2024-05-24 20:43:09,027 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-provider-3.9.5.jar
+2024-05-24 20:43:09,028 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-spi-1.9.16.jar
+2024-05-24 20:43:09,028 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-file-1.9.16.jar
+2024-05-24 20:43:09,028 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-http-1.9.16.jar
+2024-05-24 20:43:09,028 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-wagon-1.9.16.jar
+2024-05-24 20:43:09,028 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-util-1.9.16.jar
+2024-05-24 20:43:09,029 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-3.9.5.jar
+2024-05-24 20:43:09,029 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-builder-3.9.5.jar
+2024-05-24 20:43:09,029 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-shared-utils-3.3.4.jar
+2024-05-24 20:43:09,029 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.inject-0.3.5.jar
+2024-05-24 20:43:09,029 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2024-05-24 20:43:09,030 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-build-api-0.0.7.jar
+2024-05-24 20:43:09,030 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-cipher-2.0.jar
+2024-05-24 20:43:09,030 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-classworlds-2.7.0.jar
+2024-05-24 20:43:09,030 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-component-annotations-2.1.0.jar
+2024-05-24 20:43:09,030 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-interpolation-1.26.jar
+2024-05-24 20:43:09,031 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-sec-dispatcher-2.0.jar
+2024-05-24 20:43:09,031 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-utils-3.5.1.jar
+2024-05-24 20:43:09,031 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-file-3.5.3.jar
+2024-05-24 20:43:09,031 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-3.5.3.jar
+2024-05-24 20:43:09,031 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-shared-3.5.3.jar
+2024-05-24 20:43:09,032 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-provider-api-3.5.3.jar
+2024-05-24 20:43:09,033 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [12])
+2024-05-24 20:43:09,034 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava_32.1.3.jre.jar
+2024-05-24 20:43:09,034 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [988])
+2024-05-24 20:43:09,034 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\slf4j.api_2.0.12.jar
+2024-05-24 20:43:09,034 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [29])
+2024-05-24 20:43:09,035 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-05-24 20:43:09,035 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [24])
+2024-05-24 20:43:09,036 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-05-24 20:43:09,036 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [71])
+2024-05-24 20:43:09,037 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.cli_1.6.0.jar
+2024-05-24 20:43:09,037 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [75])
+2024-05-24 20:43:09,038 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-05-24 20:43:09,038 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [1004])
+2024-05-24 20:43:09,038 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-05-24 20:43:09,038 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [13])
+2024-05-24 20:43:09,039 [Worker-10: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-05-24 20:43:09,042 [Worker-10: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger":
+2024-05-24 20:43:09,043 [Worker-10: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always spring-boot:run
+2024-05-25 02:57:50,478 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 02:57:50,495 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 02:57:50,502 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 02:58:46,456 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 02:58:46,468 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 02:58:46,472 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 02:59:19,802 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 02:59:19,809 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 02:59:19,814 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:02:26,226 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:02:26,236 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:02:26,240 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:02:59,239 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:02:59,246 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:02:59,252 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:04:10,641 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:04:10,648 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:04:10,653 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:04:12,943 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:04:12,951 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:04:12,957 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:04:52,954 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:04:52,962 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:04:52,969 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:05:29,312 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:05:29,318 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:05:29,322 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:05:55,777 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:05:55,783 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:05:55,786 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:14:44,546 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:14:44,553 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:14:44,556 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:14:46,719 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:14:46,737 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:14:46,743 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:14:58,140 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:14:58,147 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:14:58,152 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:15:33,380 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:15:33,385 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:15:33,392 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:15:59,935 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:15:59,942 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:15:59,946 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:16:23,825 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:16:23,831 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:16:23,835 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:17:49,683 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:17:49,694 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:17:49,699 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:17:51,888 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:17:51,896 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:17:51,901 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:20:12,596 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:20:12,604 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:20:12,610 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:20:25,588 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:20:25,594 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:20:25,597 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:21:35,142 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:21:35,147 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:21:35,151 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:21:57,109 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:21:57,114 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:21:57,118 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:22:07,389 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:22:07,396 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:22:07,400 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:22:37,163 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:22:37,170 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:22:37,174 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:32:23,980 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:32:23,986 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:32:23,990 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:34:00,383 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:34:00,392 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:34:00,396 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:37:19,009 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:37:19,018 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:37:19,022 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:42:13,100 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:42:13,114 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:42:13,118 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:43:55,236 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:43:55,243 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:43:55,247 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:46:47,652 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345 [628])
+2024-05-25 03:46:47,653 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345
+2024-05-25 03:46:47,664 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\aopalliance-1.0.jar
+2024-05-25 03:46:47,665 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\guice-5.1.0.jar
+2024-05-25 03:46:47,665 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpclient-4.5.14.jar
+2024-05-25 03:46:47,666 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpcore-4.4.16.jar
+2024-05-25 03:46:47,666 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jansi-2.4.0.jar
+2024-05-25 03:46:47,666 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jcl-over-slf4j-1.7.36.jar
+2024-05-25 03:46:47,666 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-artifact-3.9.5.jar
+2024-05-25 03:46:47,666 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-builder-support-3.9.5.jar
+2024-05-25 03:46:47,667 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-compat-3.9.5.jar
+2024-05-25 03:46:47,667 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-core-3.9.5.jar
+2024-05-25 03:46:47,667 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-embedder-3.9.5.jar
+2024-05-25 03:46:47,667 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-3.9.5.jar
+2024-05-25 03:46:47,667 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-builder-3.9.5.jar
+2024-05-25 03:46:47,667 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-plugin-api-3.9.5.jar
+2024-05-25 03:46:47,667 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-repository-metadata-3.9.5.jar
+2024-05-25 03:46:47,667 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-api-1.9.16.jar
+2024-05-25 03:46:47,668 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-connector-basic-1.9.16.jar
+2024-05-25 03:46:47,668 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-impl-1.9.16.jar
+2024-05-25 03:46:47,668 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-named-locks-1.9.16.jar
+2024-05-25 03:46:47,668 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-provider-3.9.5.jar
+2024-05-25 03:46:47,668 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-spi-1.9.16.jar
+2024-05-25 03:46:47,668 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-file-1.9.16.jar
+2024-05-25 03:46:47,668 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-http-1.9.16.jar
+2024-05-25 03:46:47,668 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-wagon-1.9.16.jar
+2024-05-25 03:46:47,669 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-util-1.9.16.jar
+2024-05-25 03:46:47,669 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-3.9.5.jar
+2024-05-25 03:46:47,669 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-builder-3.9.5.jar
+2024-05-25 03:46:47,669 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-shared-utils-3.3.4.jar
+2024-05-25 03:46:47,669 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.inject-0.3.5.jar
+2024-05-25 03:46:47,669 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2024-05-25 03:46:47,669 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-build-api-0.0.7.jar
+2024-05-25 03:46:47,669 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-cipher-2.0.jar
+2024-05-25 03:46:47,670 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-classworlds-2.7.0.jar
+2024-05-25 03:46:47,670 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-component-annotations-2.1.0.jar
+2024-05-25 03:46:47,670 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-interpolation-1.26.jar
+2024-05-25 03:46:47,670 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-sec-dispatcher-2.0.jar
+2024-05-25 03:46:47,670 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-utils-3.5.1.jar
+2024-05-25 03:46:47,671 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-file-3.5.3.jar
+2024-05-25 03:46:47,671 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-3.5.3.jar
+2024-05-25 03:46:47,671 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-shared-3.5.3.jar
+2024-05-25 03:46:47,671 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-provider-api-3.5.3.jar
+2024-05-25 03:46:47,672 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [12])
+2024-05-25 03:46:47,673 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava_32.1.3.jre.jar
+2024-05-25 03:46:47,673 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [988])
+2024-05-25 03:46:47,673 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\slf4j.api_2.0.12.jar
+2024-05-25 03:46:47,673 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [29])
+2024-05-25 03:46:47,674 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-05-25 03:46:47,674 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [24])
+2024-05-25 03:46:47,674 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-05-25 03:46:47,674 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [71])
+2024-05-25 03:46:47,675 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.cli_1.6.0.jar
+2024-05-25 03:46:47,675 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [75])
+2024-05-25 03:46:47,675 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-05-25 03:46:47,675 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [1004])
+2024-05-25 03:46:47,676 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-05-25 03:46:47,676 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [13])
+2024-05-25 03:46:47,676 [Worker-98: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-05-25 03:46:47,679 [Worker-98: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger":
+2024-05-25 03:46:47,680 [Worker-98: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always spring-boot:run
+2024-05-25 03:46:48,019 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:46:48,026 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:46:48,029 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:51:19,805 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345 [628])
+2024-05-25 03:51:19,807 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345
+2024-05-25 03:51:19,807 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\aopalliance-1.0.jar
+2024-05-25 03:51:19,808 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\guice-5.1.0.jar
+2024-05-25 03:51:19,808 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpclient-4.5.14.jar
+2024-05-25 03:51:19,808 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpcore-4.4.16.jar
+2024-05-25 03:51:19,808 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jansi-2.4.0.jar
+2024-05-25 03:51:19,808 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jcl-over-slf4j-1.7.36.jar
+2024-05-25 03:51:19,808 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-artifact-3.9.5.jar
+2024-05-25 03:51:19,808 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-builder-support-3.9.5.jar
+2024-05-25 03:51:19,809 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-compat-3.9.5.jar
+2024-05-25 03:51:19,809 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-core-3.9.5.jar
+2024-05-25 03:51:19,809 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-embedder-3.9.5.jar
+2024-05-25 03:51:19,809 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-3.9.5.jar
+2024-05-25 03:51:19,809 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-builder-3.9.5.jar
+2024-05-25 03:51:19,809 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-plugin-api-3.9.5.jar
+2024-05-25 03:51:19,809 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-repository-metadata-3.9.5.jar
+2024-05-25 03:51:19,810 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-api-1.9.16.jar
+2024-05-25 03:51:19,810 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-connector-basic-1.9.16.jar
+2024-05-25 03:51:19,810 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-impl-1.9.16.jar
+2024-05-25 03:51:19,810 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-named-locks-1.9.16.jar
+2024-05-25 03:51:19,810 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-provider-3.9.5.jar
+2024-05-25 03:51:19,810 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-spi-1.9.16.jar
+2024-05-25 03:51:19,810 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-file-1.9.16.jar
+2024-05-25 03:51:19,810 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-http-1.9.16.jar
+2024-05-25 03:51:19,811 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-wagon-1.9.16.jar
+2024-05-25 03:51:19,811 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-util-1.9.16.jar
+2024-05-25 03:51:19,811 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-3.9.5.jar
+2024-05-25 03:51:19,811 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-builder-3.9.5.jar
+2024-05-25 03:51:19,811 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-shared-utils-3.3.4.jar
+2024-05-25 03:51:19,811 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.inject-0.3.5.jar
+2024-05-25 03:51:19,812 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2024-05-25 03:51:19,812 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-build-api-0.0.7.jar
+2024-05-25 03:51:19,812 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-cipher-2.0.jar
+2024-05-25 03:51:19,812 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-classworlds-2.7.0.jar
+2024-05-25 03:51:19,812 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-component-annotations-2.1.0.jar
+2024-05-25 03:51:19,812 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-interpolation-1.26.jar
+2024-05-25 03:51:19,812 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-sec-dispatcher-2.0.jar
+2024-05-25 03:51:19,813 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-utils-3.5.1.jar
+2024-05-25 03:51:19,813 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-file-3.5.3.jar
+2024-05-25 03:51:19,813 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-3.5.3.jar
+2024-05-25 03:51:19,813 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-shared-3.5.3.jar
+2024-05-25 03:51:19,813 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-provider-api-3.5.3.jar
+2024-05-25 03:51:19,814 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [12])
+2024-05-25 03:51:19,814 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava_32.1.3.jre.jar
+2024-05-25 03:51:19,814 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [988])
+2024-05-25 03:51:19,814 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\slf4j.api_2.0.12.jar
+2024-05-25 03:51:19,814 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [29])
+2024-05-25 03:51:19,815 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-05-25 03:51:19,815 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [24])
+2024-05-25 03:51:19,815 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-05-25 03:51:19,815 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [71])
+2024-05-25 03:51:19,816 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.cli_1.6.0.jar
+2024-05-25 03:51:19,816 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [75])
+2024-05-25 03:51:19,816 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-05-25 03:51:19,816 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [1004])
+2024-05-25 03:51:19,816 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-05-25 03:51:19,816 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [13])
+2024-05-25 03:51:19,817 [Worker-107: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-05-25 03:51:19,819 [Worker-107: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger":
+2024-05-25 03:51:19,819 [Worker-107: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always spring-boot:run
+2024-05-25 03:51:20,046 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:51:20,051 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:51:20,054 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:59:05,123 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:59:05,133 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:59:05,139 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 03:59:26,711 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:59:26,718 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 03:59:26,723 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:03:58,182 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:03:58,188 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:03:58,192 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:04:00,381 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:04:00,387 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:04:00,391 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:04:03,690 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:04:03,707 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:04:03,712 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:04:06,231 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:04:06,238 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:04:06,241 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:04:08,414 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:04:08,419 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:04:08,422 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:04:42,767 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:04:42,772 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:04:42,776 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:07:17,695 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:07:17,702 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:07:17,706 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:07:40,764 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:07:40,769 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:07:40,773 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:09:59,773 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:09:59,783 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:09:59,786 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:11:06,800 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:11:06,805 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:11:06,809 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:11:27,775 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:11:27,783 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:11:27,788 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:11:41,669 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:11:41,674 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:11:41,678 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:12:14,204 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:12:14,212 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:12:14,215 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:12:31,775 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:12:31,780 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:12:31,784 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:13:24,790 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:13:24,795 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:13:24,798 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:15:28,590 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:15:28,597 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:15:28,602 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:15:33,126 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345 [628])
+2024-05-25 04:15:33,127 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345
+2024-05-25 04:15:33,127 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\aopalliance-1.0.jar
+2024-05-25 04:15:33,127 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\guice-5.1.0.jar
+2024-05-25 04:15:33,127 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpclient-4.5.14.jar
+2024-05-25 04:15:33,128 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpcore-4.4.16.jar
+2024-05-25 04:15:33,128 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jansi-2.4.0.jar
+2024-05-25 04:15:33,128 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jcl-over-slf4j-1.7.36.jar
+2024-05-25 04:15:33,128 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-artifact-3.9.5.jar
+2024-05-25 04:15:33,128 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-builder-support-3.9.5.jar
+2024-05-25 04:15:33,128 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-compat-3.9.5.jar
+2024-05-25 04:15:33,128 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-core-3.9.5.jar
+2024-05-25 04:15:33,129 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-embedder-3.9.5.jar
+2024-05-25 04:15:33,129 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-3.9.5.jar
+2024-05-25 04:15:33,130 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-builder-3.9.5.jar
+2024-05-25 04:15:33,130 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-plugin-api-3.9.5.jar
+2024-05-25 04:15:33,130 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-repository-metadata-3.9.5.jar
+2024-05-25 04:15:33,130 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-api-1.9.16.jar
+2024-05-25 04:15:33,130 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-connector-basic-1.9.16.jar
+2024-05-25 04:15:33,131 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-impl-1.9.16.jar
+2024-05-25 04:15:33,131 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-named-locks-1.9.16.jar
+2024-05-25 04:15:33,131 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-provider-3.9.5.jar
+2024-05-25 04:15:33,131 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-spi-1.9.16.jar
+2024-05-25 04:15:33,131 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-file-1.9.16.jar
+2024-05-25 04:15:33,131 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-http-1.9.16.jar
+2024-05-25 04:15:33,131 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-wagon-1.9.16.jar
+2024-05-25 04:15:33,131 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-util-1.9.16.jar
+2024-05-25 04:15:33,132 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-3.9.5.jar
+2024-05-25 04:15:33,132 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-builder-3.9.5.jar
+2024-05-25 04:15:33,132 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-shared-utils-3.3.4.jar
+2024-05-25 04:15:33,132 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.inject-0.3.5.jar
+2024-05-25 04:15:33,132 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2024-05-25 04:15:33,132 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-build-api-0.0.7.jar
+2024-05-25 04:15:33,132 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-cipher-2.0.jar
+2024-05-25 04:15:33,132 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-classworlds-2.7.0.jar
+2024-05-25 04:15:33,132 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-component-annotations-2.1.0.jar
+2024-05-25 04:15:33,133 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-interpolation-1.26.jar
+2024-05-25 04:15:33,133 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-sec-dispatcher-2.0.jar
+2024-05-25 04:15:33,133 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-utils-3.5.1.jar
+2024-05-25 04:15:33,133 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-file-3.5.3.jar
+2024-05-25 04:15:33,133 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-3.5.3.jar
+2024-05-25 04:15:33,133 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-shared-3.5.3.jar
+2024-05-25 04:15:33,133 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-provider-api-3.5.3.jar
+2024-05-25 04:15:33,133 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [12])
+2024-05-25 04:15:33,134 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava_32.1.3.jre.jar
+2024-05-25 04:15:33,134 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [988])
+2024-05-25 04:15:33,134 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\slf4j.api_2.0.12.jar
+2024-05-25 04:15:33,134 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [29])
+2024-05-25 04:15:33,134 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-05-25 04:15:33,134 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [24])
+2024-05-25 04:15:33,135 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-05-25 04:15:33,135 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [71])
+2024-05-25 04:15:33,135 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.cli_1.6.0.jar
+2024-05-25 04:15:33,135 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [75])
+2024-05-25 04:15:33,135 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-05-25 04:15:33,135 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [1004])
+2024-05-25 04:15:33,135 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-05-25 04:15:33,135 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [13])
+2024-05-25 04:15:33,136 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-05-25 04:15:33,138 [Worker-117: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger":
+2024-05-25 04:15:33,138 [Worker-117: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always spring-boot:run
+2024-05-25 04:18:18,667 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:18:18,673 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:18:18,677 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:18:45,013 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:18:45,020 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:18:45,023 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:20:46,658 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:20:46,694 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:20:46,700 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:21:13,709 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:21:13,715 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:21:13,717 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:21:52,095 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:21:52,104 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:21:52,109 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:22:31,237 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:22:31,244 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:22:31,247 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:22:35,426 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345 [628])
+2024-05-25 04:22:35,427 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345
+2024-05-25 04:22:35,427 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\aopalliance-1.0.jar
+2024-05-25 04:22:35,427 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\guice-5.1.0.jar
+2024-05-25 04:22:35,427 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpclient-4.5.14.jar
+2024-05-25 04:22:35,427 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpcore-4.4.16.jar
+2024-05-25 04:22:35,427 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jansi-2.4.0.jar
+2024-05-25 04:22:35,427 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jcl-over-slf4j-1.7.36.jar
+2024-05-25 04:22:35,427 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-artifact-3.9.5.jar
+2024-05-25 04:22:35,427 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-builder-support-3.9.5.jar
+2024-05-25 04:22:35,427 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-compat-3.9.5.jar
+2024-05-25 04:22:35,427 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-core-3.9.5.jar
+2024-05-25 04:22:35,427 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-embedder-3.9.5.jar
+2024-05-25 04:22:35,427 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-3.9.5.jar
+2024-05-25 04:22:35,428 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-builder-3.9.5.jar
+2024-05-25 04:22:35,428 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-plugin-api-3.9.5.jar
+2024-05-25 04:22:35,428 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-repository-metadata-3.9.5.jar
+2024-05-25 04:22:35,428 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-api-1.9.16.jar
+2024-05-25 04:22:35,428 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-connector-basic-1.9.16.jar
+2024-05-25 04:22:35,428 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-impl-1.9.16.jar
+2024-05-25 04:22:35,428 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-named-locks-1.9.16.jar
+2024-05-25 04:22:35,428 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-provider-3.9.5.jar
+2024-05-25 04:22:35,428 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-spi-1.9.16.jar
+2024-05-25 04:22:35,429 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-file-1.9.16.jar
+2024-05-25 04:22:35,429 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-http-1.9.16.jar
+2024-05-25 04:22:35,429 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-wagon-1.9.16.jar
+2024-05-25 04:22:35,429 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-util-1.9.16.jar
+2024-05-25 04:22:35,429 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-3.9.5.jar
+2024-05-25 04:22:35,429 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-builder-3.9.5.jar
+2024-05-25 04:22:35,429 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-shared-utils-3.3.4.jar
+2024-05-25 04:22:35,429 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.inject-0.3.5.jar
+2024-05-25 04:22:35,429 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2024-05-25 04:22:35,429 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-build-api-0.0.7.jar
+2024-05-25 04:22:35,429 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-cipher-2.0.jar
+2024-05-25 04:22:35,430 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-classworlds-2.7.0.jar
+2024-05-25 04:22:35,431 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-component-annotations-2.1.0.jar
+2024-05-25 04:22:35,431 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-interpolation-1.26.jar
+2024-05-25 04:22:35,431 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-sec-dispatcher-2.0.jar
+2024-05-25 04:22:35,431 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-utils-3.5.1.jar
+2024-05-25 04:22:35,431 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-file-3.5.3.jar
+2024-05-25 04:22:35,431 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-3.5.3.jar
+2024-05-25 04:22:35,431 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-shared-3.5.3.jar
+2024-05-25 04:22:35,431 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-provider-api-3.5.3.jar
+2024-05-25 04:22:35,432 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [12])
+2024-05-25 04:22:35,432 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava_32.1.3.jre.jar
+2024-05-25 04:22:35,433 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [988])
+2024-05-25 04:22:35,433 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\slf4j.api_2.0.12.jar
+2024-05-25 04:22:35,433 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [29])
+2024-05-25 04:22:35,433 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-05-25 04:22:35,433 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [24])
+2024-05-25 04:22:35,434 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-05-25 04:22:35,434 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [71])
+2024-05-25 04:22:35,434 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.cli_1.6.0.jar
+2024-05-25 04:22:35,434 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [75])
+2024-05-25 04:22:35,434 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-05-25 04:22:35,434 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [1004])
+2024-05-25 04:22:35,435 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-05-25 04:22:35,435 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [13])
+2024-05-25 04:22:35,435 [Worker-110: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-05-25 04:22:35,436 [Worker-110: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger":
+2024-05-25 04:22:35,436 [Worker-110: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always spring-boot:run
+2024-05-25 04:22:35,522 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:22:35,527 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:22:35,531 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 04:25:18,208 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:25:18,220 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 04:25:18,224 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 10:52:46,351 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 10:52:46,360 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 10:52:46,364 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 10:52:49,903 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 10:52:49,908 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 10:52:49,910 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 10:52:53,249 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 10:52:53,254 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 10:52:53,256 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 10:53:14,572 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 10:53:14,577 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 10:53:14,579 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 10:54:22,802 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 10:54:22,805 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 10:54:22,807 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 10:58:39,669 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 10:58:39,677 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 10:58:39,679 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:20:15,844 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:20:15,876 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:20:15,887 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:20:34,905 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345 [628])
+2024-05-25 11:20:34,907 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345
+2024-05-25 11:20:34,909 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\aopalliance-1.0.jar
+2024-05-25 11:20:34,909 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\guice-5.1.0.jar
+2024-05-25 11:20:34,909 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpclient-4.5.14.jar
+2024-05-25 11:20:34,909 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpcore-4.4.16.jar
+2024-05-25 11:20:34,910 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jansi-2.4.0.jar
+2024-05-25 11:20:34,910 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jcl-over-slf4j-1.7.36.jar
+2024-05-25 11:20:34,910 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-artifact-3.9.5.jar
+2024-05-25 11:20:34,910 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-builder-support-3.9.5.jar
+2024-05-25 11:20:34,910 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-compat-3.9.5.jar
+2024-05-25 11:20:34,911 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-core-3.9.5.jar
+2024-05-25 11:20:34,911 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-embedder-3.9.5.jar
+2024-05-25 11:20:34,912 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-3.9.5.jar
+2024-05-25 11:20:34,912 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-builder-3.9.5.jar
+2024-05-25 11:20:34,912 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-plugin-api-3.9.5.jar
+2024-05-25 11:20:34,912 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-repository-metadata-3.9.5.jar
+2024-05-25 11:20:34,912 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-api-1.9.16.jar
+2024-05-25 11:20:34,912 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-connector-basic-1.9.16.jar
+2024-05-25 11:20:34,913 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-impl-1.9.16.jar
+2024-05-25 11:20:34,913 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-named-locks-1.9.16.jar
+2024-05-25 11:20:34,913 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-provider-3.9.5.jar
+2024-05-25 11:20:34,913 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-spi-1.9.16.jar
+2024-05-25 11:20:34,913 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-file-1.9.16.jar
+2024-05-25 11:20:34,913 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-http-1.9.16.jar
+2024-05-25 11:20:34,913 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-wagon-1.9.16.jar
+2024-05-25 11:20:34,914 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-util-1.9.16.jar
+2024-05-25 11:20:34,914 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-3.9.5.jar
+2024-05-25 11:20:34,914 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-builder-3.9.5.jar
+2024-05-25 11:20:34,914 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-shared-utils-3.3.4.jar
+2024-05-25 11:20:34,914 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.inject-0.3.5.jar
+2024-05-25 11:20:34,914 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2024-05-25 11:20:34,914 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-build-api-0.0.7.jar
+2024-05-25 11:20:34,914 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-cipher-2.0.jar
+2024-05-25 11:20:34,914 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-classworlds-2.7.0.jar
+2024-05-25 11:20:34,914 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-component-annotations-2.1.0.jar
+2024-05-25 11:20:34,915 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-interpolation-1.26.jar
+2024-05-25 11:20:34,915 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-sec-dispatcher-2.0.jar
+2024-05-25 11:20:34,915 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-utils-3.5.1.jar
+2024-05-25 11:20:34,915 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-file-3.5.3.jar
+2024-05-25 11:20:34,915 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-3.5.3.jar
+2024-05-25 11:20:34,916 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-shared-3.5.3.jar
+2024-05-25 11:20:34,916 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-provider-api-3.5.3.jar
+2024-05-25 11:20:34,916 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [12])
+2024-05-25 11:20:34,916 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava_32.1.3.jre.jar
+2024-05-25 11:20:34,917 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [988])
+2024-05-25 11:20:34,917 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\slf4j.api_2.0.12.jar
+2024-05-25 11:20:34,917 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [29])
+2024-05-25 11:20:34,917 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-05-25 11:20:34,917 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [24])
+2024-05-25 11:20:34,918 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-05-25 11:20:34,918 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [71])
+2024-05-25 11:20:34,918 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.cli_1.6.0.jar
+2024-05-25 11:20:34,918 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [75])
+2024-05-25 11:20:34,919 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-05-25 11:20:34,919 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [1004])
+2024-05-25 11:20:34,920 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-05-25 11:20:34,920 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [13])
+2024-05-25 11:20:34,920 [Worker-127: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-05-25 11:20:34,923 [Worker-127: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger":
+2024-05-25 11:20:34,923 [Worker-127: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always spring-boot:run
+2024-05-25 11:21:44,783 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345 [628])
+2024-05-25 11:21:44,784 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345
+2024-05-25 11:21:44,784 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\aopalliance-1.0.jar
+2024-05-25 11:21:44,784 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\guice-5.1.0.jar
+2024-05-25 11:21:44,784 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpclient-4.5.14.jar
+2024-05-25 11:21:44,784 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpcore-4.4.16.jar
+2024-05-25 11:21:44,785 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jansi-2.4.0.jar
+2024-05-25 11:21:44,785 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jcl-over-slf4j-1.7.36.jar
+2024-05-25 11:21:44,785 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-artifact-3.9.5.jar
+2024-05-25 11:21:44,785 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-builder-support-3.9.5.jar
+2024-05-25 11:21:44,785 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-compat-3.9.5.jar
+2024-05-25 11:21:44,785 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-core-3.9.5.jar
+2024-05-25 11:21:44,785 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-embedder-3.9.5.jar
+2024-05-25 11:21:44,785 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-3.9.5.jar
+2024-05-25 11:21:44,785 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-builder-3.9.5.jar
+2024-05-25 11:21:44,785 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-plugin-api-3.9.5.jar
+2024-05-25 11:21:44,785 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-repository-metadata-3.9.5.jar
+2024-05-25 11:21:44,785 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-api-1.9.16.jar
+2024-05-25 11:21:44,786 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-connector-basic-1.9.16.jar
+2024-05-25 11:21:44,786 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-impl-1.9.16.jar
+2024-05-25 11:21:44,786 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-named-locks-1.9.16.jar
+2024-05-25 11:21:44,786 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-provider-3.9.5.jar
+2024-05-25 11:21:44,786 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-spi-1.9.16.jar
+2024-05-25 11:21:44,786 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-file-1.9.16.jar
+2024-05-25 11:21:44,786 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-http-1.9.16.jar
+2024-05-25 11:21:44,786 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-wagon-1.9.16.jar
+2024-05-25 11:21:44,786 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-util-1.9.16.jar
+2024-05-25 11:21:44,787 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-3.9.5.jar
+2024-05-25 11:21:44,787 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-builder-3.9.5.jar
+2024-05-25 11:21:44,787 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-shared-utils-3.3.4.jar
+2024-05-25 11:21:44,787 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.inject-0.3.5.jar
+2024-05-25 11:21:44,787 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2024-05-25 11:21:44,787 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-build-api-0.0.7.jar
+2024-05-25 11:21:44,787 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-cipher-2.0.jar
+2024-05-25 11:21:44,789 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-classworlds-2.7.0.jar
+2024-05-25 11:21:44,789 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-component-annotations-2.1.0.jar
+2024-05-25 11:21:44,789 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-interpolation-1.26.jar
+2024-05-25 11:21:44,789 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-sec-dispatcher-2.0.jar
+2024-05-25 11:21:44,789 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-utils-3.5.1.jar
+2024-05-25 11:21:44,789 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-file-3.5.3.jar
+2024-05-25 11:21:44,790 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-3.5.3.jar
+2024-05-25 11:21:44,790 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-shared-3.5.3.jar
+2024-05-25 11:21:44,790 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-provider-api-3.5.3.jar
+2024-05-25 11:21:44,790 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [12])
+2024-05-25 11:21:44,791 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava_32.1.3.jre.jar
+2024-05-25 11:21:44,791 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [988])
+2024-05-25 11:21:44,791 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\slf4j.api_2.0.12.jar
+2024-05-25 11:21:44,791 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [29])
+2024-05-25 11:21:44,791 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-05-25 11:21:44,791 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [24])
+2024-05-25 11:21:44,792 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-05-25 11:21:44,792 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [71])
+2024-05-25 11:21:44,792 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.cli_1.6.0.jar
+2024-05-25 11:21:44,792 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [75])
+2024-05-25 11:21:44,792 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-05-25 11:21:44,792 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [1004])
+2024-05-25 11:21:44,793 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-05-25 11:21:44,793 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [13])
+2024-05-25 11:21:44,793 [Worker-117: Launching socialBanger (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Leo\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-05-25 11:21:44,794 [Worker-117: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger":
+2024-05-25 11:21:44,794 [Worker-117: Launching socialBanger (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always spring-boot:run
+2024-05-25 11:21:45,094 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:21:45,098 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:21:45,101 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:25:11,028 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:25:11,036 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:25:11,040 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:25:48,859 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:25:48,865 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:25:48,869 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:27:23,276 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:27:23,287 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:27:23,292 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:29:58,018 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:29:58,024 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:29:58,030 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:31:57,668 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:31:57,677 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:31:57,680 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:32:36,242 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:32:36,250 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:32:36,253 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:32:45,739 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:32:45,746 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:32:45,750 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:33:11,133 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:33:11,138 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:33:11,141 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:35:09,353 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:35:09,358 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:35:09,361 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:41:28,202 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:41:28,212 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:41:28,216 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:42:29,233 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:42:29,241 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:42:29,244 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:44:49,920 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:44:49,926 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:44:49,929 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:46:02,477 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:46:02,482 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:46:02,485 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:46:39,141 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:46:39,148 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:46:39,151 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:48:32,941 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:48:32,952 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:48:32,956 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:49:01,676 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:49:01,683 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:49:01,688 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:50:16,992 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:50:16,997 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:50:17,000 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:50:53,390 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:50:53,397 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:50:53,401 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 11:53:23,487 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:53:23,498 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 11:53:23,502 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:23:52,933 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:23:52,958 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:23:52,963 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:24:17,116 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:24:17,123 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:24:17,126 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:25:18,234 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:25:18,242 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:25:18,245 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:31:23,043 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:31:23,060 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:31:23,063 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:32:16,016 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:32:16,026 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:32:16,028 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:33:03,591 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:33:03,596 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:33:03,599 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:33:37,791 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:33:37,797 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:33:37,800 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:34:07,384 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:34:07,389 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:34:07,393 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:34:48,620 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:34:48,626 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:34:48,629 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:35:33,096 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:35:33,100 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:35:33,103 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:36:42,987 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:36:42,992 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:36:42,995 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:37:25,364 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:37:25,375 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:37:25,380 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:37:58,360 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:37:58,365 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:37:58,368 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:41:29,734 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:41:29,740 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:41:29,743 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:41:35,285 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:41:35,290 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:41:35,293 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:49:44,625 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:49:44,639 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:49:44,642 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:50:09,392 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:50:09,399 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:50:09,402 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:50:37,398 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:50:37,403 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:50:37,406 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:51:08,320 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:51:08,326 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:51:08,328 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:52:24,357 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:52:24,364 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:52:24,368 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:54:36,089 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:54:36,099 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:54:36,102 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:58:37,197 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:58:37,204 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:58:37,207 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:59:21,026 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:59:21,032 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:59:21,034 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 12:59:25,804 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:59:25,810 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 12:59:25,813 [Worker-164: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 13:07:17,794 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:07:17,806 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:07:17,811 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 13:11:23,125 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:11:23,136 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:11:23,138 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 13:14:03,328 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:14:03,336 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:14:03,339 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 13:18:17,691 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:18:17,697 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:18:17,700 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 13:19:01,172 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:19:01,177 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:19:01,180 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 13:20:17,347 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:20:17,353 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:20:17,356 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 13:21:22,033 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:21:22,038 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:21:22,041 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources
+2024-05-25 13:36:34,914 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:36:35,024 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-25 13:36:35,031 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Leo\Desktop\isep\A2\Algo\Project\socialBanger\src\test\resources

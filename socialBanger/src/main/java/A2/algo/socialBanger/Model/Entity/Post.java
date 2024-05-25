@@ -4,8 +4,12 @@ import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.hibernate.annotations.BatchSize;
+
+import A2.algo.socialBanger.Model.Entity.Abstract.UserPlus;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -13,6 +17,8 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.NamedQuery;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -23,14 +29,18 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Table(name = "posts", schema = "public")
+@NamedQuery(name = "Post.findAll", query = "SELECT p FROM Post p")
+@NamedQuery(name = "Post.findByUserSub", query = ""
+		+ "select p from Post p left join fetch p.user u left join fetch p.interests left join fetch p.comments c left join fetch c.user left join fetch p.likes where u.id in (select s.subscribedUser.id from Subscription s where user.id = ?1) order by p.createdAt desc")
 public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
+    @ManyToOne  
     @JoinColumn(name = "user_id", referencedColumnName = "id")
-    private User user;
+    @BatchSize(size = 50)
+    private UserPlus user;
 
     @Column
     private String content;
@@ -44,11 +54,23 @@ public class Post {
     @Column
     private String location;
     
-    @ManyToMany
-    @JoinTable(
-            name = "post_hashtags",
-            joinColumns = @JoinColumn(name = "post_id"),
-            inverseJoinColumns = @JoinColumn(name = "hashtag_id")
-    )
-    private Set<Hashtag> hashtags = new HashSet<>();
+    @Column
+    private String img_url;
+    
+    @ManyToMany(fetch = FetchType.EAGER)
+	@JoinTable(name = "postinterest", joinColumns = @JoinColumn(name = "post_id"), inverseJoinColumns = @JoinColumn(name = "interest_id"))
+    @BatchSize(size = 50)
+    private Set<Interest> interests = new HashSet<>();
+    
+    @OneToMany(fetch = FetchType.EAGER)
+    @JoinColumn(name = "post_id", referencedColumnName = "id")
+    @BatchSize(size = 50)
+    private Set<Comment> comments = new HashSet<>();
+    
+    @OneToMany(fetch = FetchType.EAGER)
+    @JoinColumn(name = "post_id", referencedColumnName = "id")
+    @BatchSize(size = 50)
+    private Set<Like> likes = new HashSet<>();
+    
+    
 }
