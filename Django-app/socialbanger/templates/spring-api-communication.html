@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>User List</h1>
+    <ul>
+        {% for user in users %}
+            <li>{{ user.name }} - <a href="{% url 'user_detail' user.id %}">Details</a></li>
+        {% endfor %}
+    </ul>
+    <h1>Interest List</h1>
+    <ul>
+        {% for interest in interests %}
+            <li>{{ interest }} - </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
