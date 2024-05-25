@@ -53,6 +53,7 @@ public class UserPlus {
 		this.username = user.getUsername();
 		this.userStatus = user.getUserStatus();
 	}
+	
     
     
 }

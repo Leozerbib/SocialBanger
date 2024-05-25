@@ -10,6 +10,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.NamedQuery;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,6 +21,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Table(name = "subscriptions", schema = "public")
+@NamedQuery(name = "Subscription.findSubscriber",query = "select s from Subscription s left join fetch s.user u where s.subscribedUser.id = ?1")
+@NamedQuery(name = "Subscription.findSub",query = "select s from Subscription s left join fetch s.subscribedUser u where s.user.id = ?1")
+
 public class Subscription {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
