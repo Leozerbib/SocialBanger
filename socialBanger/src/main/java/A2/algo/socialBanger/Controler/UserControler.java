@@ -21,6 +21,7 @@ import A2.algo.socialBanger.Config.Response;
 import A2.algo.socialBanger.Model.Entity.Interest;
 import A2.algo.socialBanger.Model.Entity.User;
 import A2.algo.socialBanger.Model.Entity.Abstract.UserPlus;
+import A2.algo.socialBanger.Model.Entity.Abstract.Userinfo;
 import A2.algo.socialBanger.Model.Entity.Dto.User.LoginDto;
 import A2.algo.socialBanger.Model.Entity.Dto.User.RegisterDto;
 import A2.algo.socialBanger.Model.Entity.Enums.Gender;
@@ -90,8 +91,8 @@ public class UserControler {
 	}
 	
 	@GetMapping("/Interest/Commun")
-	public Response<List<UserPlus>> CommunInterest(@RequestParam int id){
-		List<UserPlus> userPlus = userServiceImpl.getAllUtilisateurByCommunInterest(id).getData();
+	public Response<List<Userinfo>> CommunInterest(@RequestParam int id){
+		List<Userinfo> userPlus = userServiceImpl.getAllUtilisateurByCommunInterest(id).getData();
 		if (userPlus.isEmpty()) {
 			return Response.failedResponse("No User Found");
 		} 
@@ -120,7 +121,7 @@ public class UserControler {
 	
 
 	@PostMapping("/getById")
-	public Response<User> getById(@RequestBody int id) {
+	public Response<User> getById(@RequestParam int id) {
 		User user = userServiceImpl.getUtilisateurById(id).getData();
 		if (user == null) {
 			return Response.failedResponse("User not found");

@@ -3,7 +3,10 @@ package A2.algo.socialBanger.Model.Entity;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.hibernate.FetchMode;
 import org.hibernate.annotations.Fetch;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -13,6 +16,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.NamedQuery;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -27,7 +31,7 @@ public class Interest {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    
     @Column()
     private String category;
     

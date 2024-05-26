@@ -5,6 +5,7 @@ import java.util.List;
 import A2.algo.socialBanger.Config.Response;
 import A2.algo.socialBanger.Model.Entity.User;
 import A2.algo.socialBanger.Model.Entity.Abstract.UserPlus;
+import A2.algo.socialBanger.Model.Entity.Abstract.Userinfo;
 
 
 public interface UserService {
@@ -17,7 +18,7 @@ public interface UserService {
 	public Response<User> getUtilisateurById(int id);
 	public Response<User> getUtilisateurByName(User user);
 	public Response<User> getUtilisateurByMail(String email);
-	public Response<List<UserPlus>> getAllUtilisateurByCommunInterest(int id);
+	public Response<List<Userinfo>> getAllUtilisateurByCommunInterest(int id);
 
 	
 	

@@ -30,7 +30,6 @@ public class Like {
     @JoinColumn(name = "user_id", referencedColumnName = "id")
     private UserPlus user;
 
-
     @Column
     private LocalDateTime createdAt;
 
