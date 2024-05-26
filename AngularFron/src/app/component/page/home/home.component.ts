@@ -6,6 +6,7 @@ import { AccountService } from '../../../service/User/uer-service.service';
 import { PostService } from '../../../service/Post/post.service';
 import { Post } from '../../../model/Post/post.model';
 import { UserDto } from '../../../model/User/user-dto.model';
+import { UserInfo } from '../../../model/User/user-info.class';
 
 
 @Component({ 
@@ -19,11 +20,12 @@ export class HomeComponent implements OnInit{
     user: User | null;
     id!:any;
     posts: Post[] = [];
-    userCommun: UserDto[] = [];
+    userCommun: UserInfo[] = [];
     errorMessage: string = '';
     
     constructor(private accountService: AccountService,private PostService: PostService) {
         this.user = this.accountService.userValue;
+        console.log(this.user);
     }
 
     ngOnInit(): void {
@@ -48,7 +50,7 @@ export class HomeComponent implements OnInit{
             next: (response) => {
               if (response.success) {
                   for (let i = 0; i < response.data.length; i++) {
-                    const user: UserDto = UserDto.fromJson(response.data[i]);
+                    const user: UserInfo = UserInfo.fromJson(response.data[i]);
                     console.log(user);
                     this.userCommun.push(user);
                 }

@@ -56,9 +56,6 @@ import lombok.NoArgsConstructor;
 				name = "User.findAll", 
 				query = "SELECT u FROM User u"),
 		@NamedQuery(
-				name = "User.findById", 
-				query = "SELECT u FROM User u LEFT JOIN fetch u.country c Left JOIN fetch u.interests i WHERE u.id = :id"),
-		@NamedQuery(
 				name = "User.findByCountry", 
                 query = "SELECT u FROM User u LEFT JOIN fetch u.country c Left JOIN fetch u.interests i WHERE u.country = :country"),
 		@NamedQuery(

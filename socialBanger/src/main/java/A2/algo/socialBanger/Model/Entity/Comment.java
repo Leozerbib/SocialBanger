@@ -31,7 +31,6 @@ public class Comment {
     @JoinColumn(name = "user_id", referencedColumnName = "id")
     private UserPlus user;
 
-    
     @Column
     private String content;
 

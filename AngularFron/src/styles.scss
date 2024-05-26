@@ -12,3 +12,7 @@ app-root {
   position: relative;
 }
 @import "primeicons/primeicons.css";
+
+.example::-webkit-scrollbar {
+  display: none !important;
+}
