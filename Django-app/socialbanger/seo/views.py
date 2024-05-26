@@ -1,7 +1,9 @@
 import requests
+from django.http import HttpResponse
 from django.shortcuts import render
 from django.db.models import Count
 from .utils import *
+from .seo_functions import calculate_common_interests
 
 def user_list(request):
     users_data = get_all_users_from_api()
@@ -28,12 +30,19 @@ def interest_list(request):
     return render(request, 'spring-api-communication.html', {'interests': interests, 'status': status, 'message': message})
 
 
+def interest_detail(request, interest_id):
+    interest_data = get_one_interest_from_api(interest_id)
+    interest = interest_data.get('data', [])
+    status = interest_data.get('status', 'error')
+    message = interest_data.get('message', '')
+    return render(request, 'spring-api-detail.html', {'interest': interest, 'status': status, 'message': message})
+
+
 # Define user with similar interest (for recommendation)
-def calculate_common_interests(user_id):
-    user_data = get_one_users_from_api(user_id)
-    user_interests = UserInterests.objects.filter(user_id=user_id)
-    similar_users = UserInterests.objects.filter(interest_id__in=[ui.interest_id for ui in user_interests]).exclude(user_id=user_id).values('user_id').annotate(common_interests=Count('user_id')).order_by('-common_interests')
-    return similar_users
+def get_user_suggestion_on_interests(request, user_id):
+    users_suggestion = calculate_common_interests(user_id)
+    print(users_suggestion)
+    return HttpResponse('')
 
 
 

@@ -9,4 +9,8 @@ urlpatterns = [
 
     # INTERESTS
     path('interests/', views.interest_list, name='interest_list'),
+    path('interests/<int:interest_id>/', views.interest_detail, name='interest_detail'),
+
+    # SEO
+    path('seo/<int:user_id>/', views.get_user_suggestion_on_interests, name='get_user_suggestion_on_interests'),
 ]

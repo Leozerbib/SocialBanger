@@ -3,7 +3,6 @@ from django.conf import settings
 
 
 """Class that manage the function to communicate with Spring server through API"""
-
 class SpringAPIClient:
     def __init__(self):
         self.base_url = settings.SPRING_API_BASE_URL    # Get the base API url access to Spring
@@ -28,6 +27,12 @@ class SpringAPIClient:
     def get_all_interests(self):
         url = f"{self.base_url}/interest/getAll"
         response = requests.get(url)
+        response.raise_for_status()
+        return response.json()
+
+    def get_interest(self, interest_id):
+        url = f"{self.base_url}/user/Interest/Commun"
+        response = requests.get(url, params={'id': interest_id})
         response.raise_for_status()
         return response.json()
 

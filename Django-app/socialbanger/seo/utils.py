@@ -27,4 +27,14 @@ def get_all_interests_from_api():
     except requests.exceptions.HTTPError as e:
         return {'status': 'error', 'message': str(e), 'data': None}
 
+
+def get_one_interest_from_api(interest_id):
+    try:
+        client = SpringAPIClient()
+        response = client.get_interest(interest_id)
+        print(response)
+        return {'status': response['statusCode'], 'data': response['data']}
+    except requests.exceptions.HTTPError as e:
+        return {'status': 'error', 'message': str(e), 'data': None}
+
 # TODO: 2- Add utils function that get data according to SpringAPIClient functions
