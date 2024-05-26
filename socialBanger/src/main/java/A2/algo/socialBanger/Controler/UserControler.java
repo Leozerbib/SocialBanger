@@ -120,7 +120,7 @@ public class UserControler {
 	
 	
 
-	@PostMapping("/getById")
+	@GetMapping("/getById")
 	public Response<User> getById(@RequestParam int id) {
 		User user = userServiceImpl.getUtilisateurById(id).getData();
 		if (user == null) {

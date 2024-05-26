@@ -3,7 +3,8 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from django.db.models import Count
 from .utils import *
-from .seo_functions import calculate_common_interests
+from .seo_functions import calculate_common_interests, calculate_common_friends
+
 
 def user_list(request):
     users_data = get_all_users_from_api()
@@ -38,10 +39,29 @@ def interest_detail(request, interest_id):
     return render(request, 'spring-api-detail.html', {'interest': interest, 'status': status, 'message': message})
 
 
+def subscriber_detail(request, user_id):
+    subscriber_data = get_subscriber_from_api(user_id)
+    subscriber = subscriber_data.get('data', [])
+    status = subscriber_data.get('status', 'error')
+    message = subscriber_data.get('message', '')
+    return render(request, 'spring-api-detail.html', {'subscriber': subscriber, 'status': status, 'message': message})
+
+def subscribed_detail(request, user_id):
+    subscribed_data = get_subscribed_from_api(user_id)
+    subscribed = subscribed_data.get('data', [])
+    status = subscribed_data.get('status', 'error')
+    message = subscribed_data.get('message', '')
+    return render(request, 'spring-api-detail.html', {'subscribed': subscribed, 'status': status, 'message': message})
+
+
+
 # Define user with similar interest (for recommendation)
 def get_user_suggestion_on_interests(request, user_id):
     users_suggestion = calculate_common_interests(user_id)
-    print(users_suggestion)
+    return HttpResponse('')
+
+def get_user_suggestion_on_subscriptions(request, user_id):
+    users_suggestion = calculate_common_friends(user_id)
     return HttpResponse('')
 
 
