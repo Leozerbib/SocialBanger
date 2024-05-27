@@ -13,13 +13,16 @@ import { LoginDto } from '../../model/User/login-dto.model';
 import { RegisterDto } from '../../model/User/register-dto.model';
 import { UserDto } from '../../model/User/user-dto.model';
 import { UserInfo } from '../../model/User/user-info.class';
+import { Userall } from '../../model/User/userall.model';
+import { Subscription } from '../../model/Subscription/subscription.model';
+import { SubscriptionSub } from '../../model/Sub/subscription-sub.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AccountService {
-  private userSubject: BehaviorSubject<User | null>;
-  public user: Observable<User | null>;
+  private userSubject: BehaviorSubject<Userall | null>;
+  public user: Observable<Userall | null>;
 
   constructor(
     private router: Router,
@@ -29,12 +32,12 @@ export class AccountService {
     this.user = this.userSubject.asObservable();
 }
 
-  public get userValue(): User | null {
+  public get userValue(): Userall | null {
     return this.userSubject.value;
   }
 
-  login(loginDto: LoginDto): Observable<Response<User>> {
-    return this.http.post<Response<User>>(`${environment.apiUrl}/user/Login`, loginDto)
+  login(loginDto: LoginDto): Observable<Response<Userall>> {
+    return this.http.post<Response<Userall>>(`${environment.apiUrl}/user/Login`, loginDto)
       .pipe(
         map(response => {
           if (response.success) {
@@ -53,8 +56,8 @@ export class AccountService {
     this.userSubject.next(null);
     this.router.navigate(['/account/login']);
 }
-register(createUser: RegisterDto): Observable<Response<User>> {
-  return this.http.post<Response<User>>(`${environment.apiUrl}/user/Register`, createUser)
+register(createUser: RegisterDto): Observable<Response<Userall>> {
+  return this.http.post<Response<Userall>>(`${environment.apiUrl}/user/Register`, createUser)
     .pipe(
       map(response => {
         if (response.success) {
@@ -81,9 +84,37 @@ communInterest(id: number): Observable<Response<UserInfo[]>> {
     );
 }
 
+communSub(id: number): Observable<Response<UserInfo[]>> {
+  return this.http.get<Response<UserInfo[]>>(`${environment.apiUrl}/user/CommunSub?id=${id}`)
+    .pipe(
+      map(response => {
+        if (response.success) {
+          localStorage.setItem('communSub', JSON.stringify(response.data));
+          console.log(response.data);
+        }
+        return response;
+      }),
+      catchError(this.handleError)
+    );
+}
+
+Sub(id: number): Observable<Response<SubscriptionSub[]>> {
+  return this.http.get<Response<SubscriptionSub[]>>(`${environment.apiUrl}/user/Sub?id=${id}`)
+    .pipe(
+      map(response => {
+        if (response.success) {
+          localStorage.setItem('Sub', JSON.stringify(response.data));
+          console.log(response.data);
+        }
+        return response;
+      }),
+      catchError(this.handleError)
+    );
+}
 
 
-  update(id: number, user: User): Observable<Response<boolean>> {
+
+  update(id: number, user: Userall): Observable<Response<boolean>> {
     return this.http.put<Response<boolean>>(`${environment.apiUrl}/user/update/${id}`, user)
       .pipe(
         map(response => {

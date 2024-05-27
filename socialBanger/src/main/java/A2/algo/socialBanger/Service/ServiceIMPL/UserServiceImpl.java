@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import A2.algo.socialBanger.Config.Response;
 import A2.algo.socialBanger.Model.Entity.User;
+import A2.algo.socialBanger.Model.Entity.Abstract.UserAll;
 import A2.algo.socialBanger.Model.Entity.Abstract.UserPlus;
 import A2.algo.socialBanger.Model.Entity.Abstract.Userinfo;
 import A2.algo.socialBanger.Model.Repo.UserRepository;
@@ -51,8 +52,8 @@ public class UserServiceImpl implements UserService{
 	}
 
 	@Override
-	public Response<User> getUtilisateurById(int id) {
-		User user = userRepository.findById(id);
+	public Response<UserAll> getUtilisateurById(int id) {
+		UserAll user = userRepository.findById(id);
 		if (user != null) {
 			return Response.successfulResponse("User found", user);
 		}
@@ -88,6 +89,18 @@ public class UserServiceImpl implements UserService{
 	public Response<List<Userinfo>> getAllUtilisateurByCommunInterest(int id){
 		return Response.successfulResponse("All User Found",userRepository.findByInterest(id));
 		
+	}
+
+	@Override
+	public List<Userinfo> getByCommunLikedPost(int id) {
+		// TODO Auto-generated method stub
+		return userRepository.findByCommunLikedPost(id);
+	}
+
+	@Override
+	public List<Userinfo> getByCommunSub(int id) {
+		// TODO Auto-generated method stub
+		return userRepository.findByCommunSub(id);
 	}
 
 }

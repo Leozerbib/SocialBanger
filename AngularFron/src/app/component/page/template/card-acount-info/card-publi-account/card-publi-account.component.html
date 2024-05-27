@@ -1,0 +1,70 @@
+<p-card header="{{username}}" subheader="{{post.createdAt}}"  class="w-full h-full">
+    <ng-template pTemplate="w-full">
+        <img alt="Card" src="https://primefaces.org/cdn/primeng/images/card-ng.jpg" class="w-full" style="border-radius: 15px;"/>
+    </ng-template>
+    <div class="flex flex-row w-full">
+        <div class="toggle-panel w-full">
+            <div  (click)="togglePanel()">
+              <span *ngIf="!isOpen">Description +</span>
+              <span *ngIf="isOpen" >Description -</span>
+            </div>
+            <div class="body" *ngIf="isOpen">
+                <p>{{post.content}}</p>
+            </div>
+        </div>          
+    </div>
+    <ng-template pTemplate="footer">
+        <div class="flex flex-row align-content-center justify-content-center" style="margin: 0%; padding: 0%;">
+            <div class="flex flex-col w-4 p-1">
+                <div class="button flex flex-row bg-red-400 w-full h-full align-content-center justify-content-center" style="border-radius: 10px;">
+                    <div class="p-1" >
+                        <span class="pi pi-heart align-content-center"></span>
+                    </div>
+                    <div class="flex p-1 align-content-center">
+                        like
+                    </div>
+                    <div class="flex p-1 align-content-center">
+                        {{post.likesCount}}
+                    </div>
+                </div>            
+            </div>
+            <div class="flex flex-col w-4 p-1">
+                <div class="button flex flex-row bg-orange-400 w-full h-full align-content-center justify-content-center" style="border-radius: 10px;" (click)="comPanel()">
+                    <div class="p-1" >
+                        <span class="pi pi-user align-content-center"></span>
+                    </div>
+                    <div class="flex p-1 align-content-center">
+                        Com
+                    </div>
+                    <div class="flex p-1 align-content-center">
+                        {{post.commentsCount}}
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col w-4 p-1 h-full align-content-center justify-content-center">
+                <div class="button flex flex-row bg-blue-400 w-full h-full align-content-center justify-content-center" style="border-radius: 10px;">
+                    <div class="p-1" >
+                        <span class="pi pi-bookmark align-content-center"></span>
+                    </div>
+                    <div class="flex p-1 align-content-center">
+                        Cat
+                    </div>
+                    <div class="flex p-1 align-content-center">
+                        0
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex flex-row">
+            <div class="flex w-full flex-wrap">
+                <div class="flex flex-row w-full">
+                      <span *ngIf="comIsOpen w-full" >Commentary</span>
+                </div>
+                <div class="w-full flex flex-row h-15rem p-1 flex-wrap gap-3" *ngIf="comIsOpen" style="overflow-x: hidden; overflow-y: scroll;">
+
+                </div>
+            </div>
+        </div>
+
+    </ng-template>
+</p-card>

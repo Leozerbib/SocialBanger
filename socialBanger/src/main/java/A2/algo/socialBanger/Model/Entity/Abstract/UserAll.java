@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.hibernate.annotations.BatchSize;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.Formula;
 import org.hibernate.annotations.JdbcType;
@@ -110,18 +111,22 @@ public class UserAll {
     @Formula("(select count(*) from subscriptions s where s.subscribed_user_id = id)")
     private int count_subscriptions;
     
-    @OneToMany(mappedBy = "user" ,fetch = FetchType.EAGER)
+    @OneToMany(fetch = FetchType.EAGER)
+    @JoinColumn(name = "user_id", referencedColumnName = "id")
     @Fetch(org.hibernate.annotations.FetchMode.SUBSELECT)
-    private Set<Subscription> subscriptions = new HashSet<>();
+    @BatchSize(size = 100)
+    private Set<SubscriptionPlus> subscriptions = new HashSet<>();
     
     @OneToMany(fetch = FetchType.EAGER)
     @JoinColumn(name = "user_id", referencedColumnName = "id")
     @Fetch(org.hibernate.annotations.FetchMode.SUBSELECT)
+    @BatchSize(size = 100)
     private Set<PostPlus> posts = new HashSet<>();
     
     @OneToMany
     @JoinColumn(name = "user_id", referencedColumnName = "id")
     @Fetch(org.hibernate.annotations.FetchMode.SUBSELECT)
+    @BatchSize(size = 100)
     private Set<LikePlus> likes = new HashSet<>();
 
 

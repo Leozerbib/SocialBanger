@@ -7,6 +7,9 @@ import { PostService } from '../../../service/Post/post.service';
 import { Post } from '../../../model/Post/post.model';
 import { UserDto } from '../../../model/User/user-dto.model';
 import { UserInfo } from '../../../model/User/user-info.class';
+import { Userall } from '../../../model/User/userall.model';
+import { Subscription } from '../../../model/Subscription/subscription.model';
+import { SubscriptionSub } from '../../../model/Sub/subscription-sub.model';
 
 
 @Component({ 
@@ -17,11 +20,14 @@ import { UserInfo } from '../../../model/User/user-info.class';
     ]
  })
 export class HomeComponent implements OnInit{
-    user: User | null;
+    user: Userall | null;
     id!:any;
     posts: Post[] = [];
     userCommun: UserInfo[] = [];
+    userCommunSub: UserInfo[] = [];
+    userSub: UserDto[] = [];
     errorMessage: string = '';
+    isConnected: boolean = false;
     
     constructor(private accountService: AccountService,private PostService: PostService) {
         this.user = this.accountService.userValue;
@@ -59,6 +65,46 @@ export class HomeComponent implements OnInit{
                 console.log(response.message);
               }
               console.log(this.userCommun[0].userStatus);
+              
+            },
+            error: (err) => {
+              this.errorMessage = 'An error occurred while fetching interests';
+              console.error(err);
+            }
+          });
+          this.accountService.communSub(this.id).subscribe({
+            next: (response) => {
+              if (response.success) {
+                  for (let i = 0; i < response.data.length; i++) {
+                    const user: UserInfo = UserInfo.fromJson(response.data[i]);
+                    console.log(user);
+                    this.userCommunSub.push(user);
+                  
+                }
+              } else {
+                this.errorMessage = response.message;
+                console.log(response.message);
+              }
+              
+            },
+            error: (err) => {
+              this.errorMessage = 'An error occurred while fetching interests';
+              console.error(err);
+            }
+          });
+          this.accountService.Sub(this.id).subscribe({
+            next: (response) => {
+              if (response.success) {
+                  for (let i = 0; i < response.data.length; i++) {
+                    const user: SubscriptionSub = SubscriptionSub.fromDto(response.data[i]);
+                    const users: UserDto = UserDto.fromJson(user.subscribedUser);
+                    console.log(user);
+                    this.userSub.push(users);
+                }
+              } else {
+                this.errorMessage = response.message;
+                console.log(response.message);
+              }
               
             },
             error: (err) => {

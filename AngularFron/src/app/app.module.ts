@@ -24,6 +24,8 @@ import { ProgressSpinnerModule } from 'primeng/progressspinner';
 import { PanelModule } from 'primeng/panel';
 import { AvatarModule } from 'primeng/avatar';
 import { CardCompteComponent } from './component/page/template/card-compte/card-compte.component';
+import { CardAcountInfoComponent } from './component/page/template/card-acount-info/card-acount-info.component';
+import { CardPubliAccountComponent } from './component/page/template/card-acount-info/card-publi-account/card-publi-account.component';
 
 
 @NgModule({
@@ -49,7 +51,9 @@ import { CardCompteComponent } from './component/page/template/card-compte/card-
     CardAmisComponent,
     CardPublicationComponent,
     NavbarComponent,
-    CardCompteComponent
+    CardCompteComponent,
+    CardAcountInfoComponent,
+    CardPubliAccountComponent
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },

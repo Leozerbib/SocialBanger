@@ -1,6 +1,7 @@
-import { Status } from "../enum/status";
+import { Status, booleanToStatus } from "../enum/status";
 
 export class UserDto {
+
     id: number;
     username: string;
     userStatus: Status;
@@ -12,6 +13,6 @@ export class UserDto {
     }
 
     public static fromJson(json: any): UserDto {
-        return new UserDto(json.id, json.username, json.userStatus);
+        return new UserDto(json.id, json.username, booleanToStatus(json.userStatus));
     }
 }

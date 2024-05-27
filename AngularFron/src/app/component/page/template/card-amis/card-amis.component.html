@@ -4,11 +4,11 @@
         <i class="bi bi-person-circle w-full h-full" style="font-size: 2rem;height: 100%;"></i>
       </div>
       <div class="col-9">
-        <h5 class="card-title" style="">{{ friendName }}</h5>
+        <h5 class="card-title" style="">{{ friend.username }}</h5>
         <p class="card-text">
-            <span [ngClass]="{'text-success': isConnected, 'text-danger': !isConnected}" style="font-size: smaller;">
-            {{ isConnected ? 'Connected' : 'Disconnected' }}
-            </span>
+          <span [ngClass]="{'text-success': isConnected, 'text-danger': !isConnected}">
+            {{ isConnected == true  ? 'Connected' : 'Disconnected' }}
+          </span>
         </p>
       </div>
     </div>

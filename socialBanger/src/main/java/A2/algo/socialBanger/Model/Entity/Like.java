@@ -2,6 +2,7 @@ package A2.algo.socialBanger.Model.Entity;
 
 import java.time.LocalDateTime;
 
+import A2.algo.socialBanger.Model.Entity.Abstract.PostPlus;
 import A2.algo.socialBanger.Model.Entity.Abstract.UserPlus;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -29,6 +30,7 @@ public class Like {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", referencedColumnName = "id")
     private UserPlus user;
+   
 
     @Column
     private LocalDateTime createdAt;

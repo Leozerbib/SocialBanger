@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { AccountService } from '../../../service/User/uer-service.service';
 import { User } from '../../../model/User/user.model';
 import { MenuItem } from 'primeng/api';
+import { Userall } from '../../../model/User/userall.model';
 
 @Component({
   selector: 'app-navbar',
@@ -9,7 +10,7 @@ import { MenuItem } from 'primeng/api';
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
-  user?: User | null;
+  user?: Userall | null;
 
 
 
@@ -46,10 +47,11 @@ export class NavbarComponent {
 
   constructor(private accountService: AccountService) {
     this.accountService.user.subscribe(x => this.user = x);
+    this.user = this.accountService.userValue;
+
   }
 
   logout() {
-    this.accountService.logout();
   }
 
   onTabChange(event: any) {

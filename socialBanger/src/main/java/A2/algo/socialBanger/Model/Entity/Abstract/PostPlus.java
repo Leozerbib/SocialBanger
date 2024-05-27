@@ -22,6 +22,7 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.NamedQuery;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -32,16 +33,25 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 @Table(name = "posts", schema = "public")
+@NamedQuery(name = "Post.findUserLikesPostInterest", query = ""
+		+ "select p from PostPlus p "
+		+ "left join postInterest p2 on p2.post_id = p.id "
+		+ "where p2.interest_id in ( "
+		+ "   select p4.id "
+		+ "   from User u "
+		+ "   left join LikePlus l on u.id = l.user_id "
+		+ "   left join Post p3 on l.post_id = p3.id"
+		+ "   left join p3.interests p4 "
+		+ "   where u.id = :id "
+		+ ")"
+		+ "order by p.createdAt desc")
 public class PostPlus {
 	
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @ManyToOne  
-    @JoinColumn(name = "user_id", referencedColumnName = "id")
-    @BatchSize(size = 50)
-    private UserPlus user;
+	
+	@Column
+	private int user_id;
 
     @Column
     private String content;
@@ -68,11 +78,11 @@ public class PostPlus {
     	
     }
 
-	public PostPlus(Long id, UserPlus user, String content, LocalDateTime createdAt, LocalDateTime updatedAt,
+	public PostPlus(Long id, int user, String content, LocalDateTime createdAt, LocalDateTime updatedAt,
 			String location, String img_url, int likesCount, int commentsCount) {
 		super();
 		this.id = id;
-		this.user = user;
+		this.user_id = user;
 		this.content = content;
 		this.createdAt = createdAt;
 		this.updatedAt = updatedAt;

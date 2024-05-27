@@ -1,16 +1,18 @@
-<nav class="navbar navbar-expand navbar-dark bg-dark px-3 w-full" style="height: 7%;" *ngIf="user">
-    <app-navbar class="h-full w-full"></app-navbar>
-</nav>
+
 <div class="p-4 h-full">
     <div class="row w-100 h-full">
         <div class="col-3 amis-box h-full p-3">
             <div class="card h-full">
-                <div class="p-2 ">
-                    <app-card-amis friendName="John Doe" [isConnected]="true" class="w-100 h-full"></app-card-amis>
+                <div *ngIf="userSub.length == 0" class="flex w-full h-full p-2 align-item-center justify-content-center" style="overflow: hidden;">
+                    <p-progressSpinner 
+                        styleClass="w-4rem h-4rem" 
+                        strokeWidth="8" 
+                        fill="var(--surface-ground)" 
+                        animationDuration=".5s" />
                 </div>
-                <div class="p-2 ">
-                    <app-card-amis friendName="John Doe" [isConnected]="false" class="w-100 h-full"></app-card-amis>
-                </div>            
+                <div *ngIf="userSub.length > 0" class="w-full p-2 h-full" style="overflow-y: scroll; ">
+                    <app-card-amis  *ngFor="let friend of userSub" [friend]=friend class="w-100 flex p-2" style="height: 15%; margin-top: 2%;">{{friend}}</app-card-amis>
+                </div>       
             </div>
         </div>
         <div class="col-6 container-fluid feed-box h-full p-3">
@@ -29,21 +31,30 @@
         </div>
         <div class="col-3 container-fluid ref-box h-full p-2">
             <div class="card w-full h-full">
-                <div class="flex flex-row w-full p-1" style="height: 50%;">
+                <div class="flex flex-row w-full p-1 align-item-center justify-content-center" style="height: 50%;">
                     <div *ngIf="userCommun.length == 0" class="w-full h-full p-2 align-item-center justify-content-center" style="overflow: hidden;">
                         <p-progressSpinner 
-                            styleClass="w-4rem h-4rem" 
+                            styleClass="w-4rem h-4rem text-center" 
                             strokeWidth="8" 
                             fill="var(--surface-ground)" 
-                            animationDuration=".5s" />
+                            animationDuration=".5s" 
+                            />
                     </div>
                     <div class="flex flex-col w-full p-1 flex-wrap" *ngIf="userCommun.length > 0" style="overflow: hidden; overflow-y: scroll;border: 1px solid darkgray;border-radius: 10px;">
                         <app-card-compte class="flex flex-row w-full h-3" *ngFor="let userss of userCommun" [user]="userss"></app-card-compte>
                     </div>
                 </div>
                 <div class="flex flex-row w-full" style="height: 50%;">
-                    <div class="flex flex-col w-full h-full p-1">
-
+                    <div *ngIf="userCommun.length == 0" class="w-full h-full p-2 align-item-center justify-content-center" style="overflow: hidden;">
+                        <p-progressSpinner 
+                            styleClass="w-4rem h-4rem text-center" 
+                            strokeWidth="8" 
+                            fill="var(--surface-ground)" 
+                            animationDuration=".5s" 
+                            />
+                    </div>
+                    <div class="flex flex-col w-full p-1 flex-wrap" *ngIf="userCommun.length > 0" style="overflow: hidden; overflow-y: scroll;border: 1px solid darkgray;border-radius: 10px;">
+                        <app-card-compte class="flex flex-row w-full h-3" *ngFor="let usersss of userCommunSub" [user]="usersss"></app-card-compte>
                     </div>
                 </div>
             </div>

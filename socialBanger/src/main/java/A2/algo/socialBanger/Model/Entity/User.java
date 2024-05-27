@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.hibernate.annotations.BatchSize;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.JdbcType;
 import org.hibernate.annotations.JdbcTypeCode;
@@ -11,6 +12,7 @@ import org.hibernate.type.SqlTypes;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes.Type;
 
+import A2.algo.socialBanger.Model.Entity.Abstract.LikePlus;
 import A2.algo.socialBanger.Model.Entity.Enums.Gender;
 import A2.algo.socialBanger.Model.Entity.Enums.UserStatus;
 import jakarta.persistence.Column;
@@ -125,6 +127,12 @@ public class User {
     
     @OneToMany(mappedBy = "user",fetch = FetchType.LAZY)
     private Set<Post> posts = new HashSet<>();
+    
+    @OneToMany
+    @JoinColumn(name = "user_id", referencedColumnName = "id")
+    @Fetch(org.hibernate.annotations.FetchMode.SUBSELECT)
+    @BatchSize(size = 100)
+    private Set<Like> likes = new HashSet<>();
 
 	public User(Long id, String firstName, String lastName, String username, LocalDateTime createdAt, UserStatus userStatus, Integer age,
 			Gender gender, Set<Interest> interests, Country country, Set<Subscription> subscriptions,

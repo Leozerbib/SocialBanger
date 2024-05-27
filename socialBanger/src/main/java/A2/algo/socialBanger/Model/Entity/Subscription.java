@@ -3,6 +3,7 @@ package A2.algo.socialBanger.Model.Entity;
 import java.time.LocalDateTime;
 
 import A2.algo.socialBanger.Model.Entity.Abstract.UserPlus;
+import A2.algo.socialBanger.Model.Entity.Dto.User.UserDto;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

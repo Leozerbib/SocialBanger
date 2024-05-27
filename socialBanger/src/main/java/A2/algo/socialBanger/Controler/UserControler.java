@@ -20,6 +20,7 @@ import A2.algo.socialBanger.Config.PasswordUtils;
 import A2.algo.socialBanger.Config.Response;
 import A2.algo.socialBanger.Model.Entity.Interest;
 import A2.algo.socialBanger.Model.Entity.User;
+import A2.algo.socialBanger.Model.Entity.Abstract.UserAll;
 import A2.algo.socialBanger.Model.Entity.Abstract.UserPlus;
 import A2.algo.socialBanger.Model.Entity.Abstract.Userinfo;
 import A2.algo.socialBanger.Model.Entity.Dto.User.LoginDto;
@@ -57,7 +58,7 @@ public class UserControler {
     }
 	
 	@PostMapping("/Register")
-	public Response<User> register(@RequestBody RegisterDto createUser) {
+	public Response<UserAll> register(@RequestBody RegisterDto createUser) {
 	    if (createUser == null) {
 	    	System.out.println("User null");
 	        return Response.failedResponse("User null");
@@ -69,12 +70,14 @@ public class UserControler {
 	    Set<Interest> interests = new HashSet<Interest>(createUser.getInterests());
 	    User user = new User(createUser.getFirstName(), createUser.getLastName(),createUser.getUsername(), createUser.getEmail(), passwordUtils.encryptPassword(createUser.getPassword()), LocalDateTime.now(), LocalDateTime.now(), UserStatus.Connected, createUser.getAge(), Gender.StringToGender(createUser.getGender()), interests , createUser.getCountry());
 	    System.out.println("User created : " + user.toString());
-	    return userServiceImpl.addUtilisateur(user);
+	    userServiceImpl.addUtilisateur(user);
+	    UserAll userAll = userServiceImpl.getUtilisateurById(userServiceImpl.getUtilisateurByMail(user.getEmail()).getData().getId().intValue()).getData();
+	    return Response.successfulResponse("User created", userAll);
 	}
 
 	
 	@PostMapping("/Login")
-	public Response<User> login(@RequestBody LoginDto loginUser) {
+	public Response<UserAll> login(@RequestBody LoginDto loginUser) {
 		User user = userServiceImpl.getUtilisateurByMail(loginUser.getEmail()).getData();
 		if (user != null) {
 			log.info("User trying to login : " + user.toString());
@@ -82,11 +85,13 @@ public class UserControler {
 			if (passwordUtils.matchPassword(loginUser.getPassword(), user.getPassword())) {
 				user.setUserStatus(UserStatus.Connected);
 				userServiceImpl.updateUtilisateur(user);
-				return Response.successfulResponse("Login successful",user);
+			    UserAll userAll = userServiceImpl.getUtilisateurById(user.getId().intValue()).getData();
+				return Response.successfulResponse("Login successful",userAll);
 			}
 			return Response.failedResponse("Login failed : wrong password");
 		}
 		System.out.println("Login failed : wrong email");
+		
 		return Response.failedResponse("Login failed : wrong email");
 	}
 	
@@ -121,8 +126,8 @@ public class UserControler {
 	
 
 	@PostMapping("/getById")
-	public Response<User> getById(@RequestParam int id) {
-		User user = userServiceImpl.getUtilisateurById(id).getData();
+	public Response<UserAll> getById(@RequestParam int id) {
+		UserAll user = userServiceImpl.getUtilisateurById(id).getData();
 		if (user == null) {
 			return Response.failedResponse("User not found");
 		}
@@ -145,6 +150,16 @@ public class UserControler {
 			return Response.failedResponse("Users not found");
 		}
 		return Response.successfulResponse("Users found", users);
+	}
+	
+	@GetMapping("/CommunLikedPost")
+	public Response<List<Userinfo>> CommunLikedPost(@RequestParam int id) {
+		return Response.successfulResponse("All User Found",userServiceImpl.getByCommunLikedPost(id));
+	}
+	
+	@GetMapping("/CommunSub")
+	public Response<List<Userinfo>> CommunSub(@RequestParam int id) {
+		return Response.successfulResponse("All User Found", userServiceImpl.getByCommunSub(id));
 	}
 
             

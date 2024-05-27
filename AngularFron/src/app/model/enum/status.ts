@@ -1,6 +1,6 @@
 export enum Status {
     Active = 'Connected',
-    Inactive = 'NotConnected',
+    Inactive = 'notConnected',
 }
 
 export function booleanToStatus(value: String): Status {

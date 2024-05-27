@@ -24,16 +24,13 @@ import lombok.NoArgsConstructor;
 @Table(name = "likes", schema = "public")
 public class LikePlus {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id", referencedColumnName = "id")
-    private UserPlus user;
-
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "post_id", referencedColumnName = "id")
-    private PostPlus post;
+    @Column
+    private int user_id;
+    
+    @Column
+    private int post_id;
     
     @Column
     private LocalDateTime createdAt;

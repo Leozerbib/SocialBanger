@@ -2,6 +2,9 @@ import { User } from '../User/user.model';
 import { LocalDateTime } from 'js-joda';
 
 export class Subscription {
+    static fromJson(arg0: any): Subscription {
+      throw new Error('Method not implemented.');
+    }
     id: number;
     user: User;
     subscribedUser: User;

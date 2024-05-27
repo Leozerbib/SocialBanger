@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import A2.algo.socialBanger.Model.Entity.Post;
 import A2.algo.socialBanger.Model.Entity.User;
+import A2.algo.socialBanger.Model.Entity.Abstract.PostPlus;
 
 @Repository
 public interface PostRepository extends JpaRepository<Post, Long> {
@@ -15,6 +16,8 @@ public interface PostRepository extends JpaRepository<Post, Long> {
     List<Post> findPostsByUser(User user);
     
     List<Post> findByUserSub(int id);
+    
+    List<PostPlus> findUserLikesPostInterest(int id);
 
     // Exemple d'insertion : postRepository.save(new Post(...));
     // Exemple de mise à jour : postRepository.save(existingPost);

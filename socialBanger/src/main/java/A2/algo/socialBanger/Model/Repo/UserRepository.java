@@ -7,6 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import A2.algo.socialBanger.Model.Entity.User;
+import A2.algo.socialBanger.Model.Entity.Abstract.UserAll;
 import A2.algo.socialBanger.Model.Entity.Abstract.UserPlus;
 import A2.algo.socialBanger.Model.Entity.Abstract.Userinfo;
 
@@ -23,9 +24,13 @@ public interface UserRepository extends JpaRepository<User, Long> {
     
     List<User> findAll();
     
-    User findById(long id);
+    UserAll findById(int id);
     
     List<Userinfo> findByInterest(int id);
+    
+    List<Userinfo> findByCommunLikedPost(int id);
+    
+    List<Userinfo> findByCommunSub(int id);
     
     
     

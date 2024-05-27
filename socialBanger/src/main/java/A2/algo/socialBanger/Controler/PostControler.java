@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import A2.algo.socialBanger.Config.Response;
 import A2.algo.socialBanger.Model.Entity.Post;
+import A2.algo.socialBanger.Model.Entity.Abstract.PostPlus;
 import A2.algo.socialBanger.Model.Entity.Dto.PostDto.PostDto;
 import A2.algo.socialBanger.Service.ServiceIMPL.PostServiceImpl;
 import A2.algo.socialBanger.Service.ServiceIMPL.UserServiceImpl;
@@ -52,6 +53,17 @@ public class PostControler {
 			posts.add(PostDto.postToPostDto(post));
 		}
 		return Response.successfulResponse("Post found", posts);
+	}
+	
+	@GetMapping("/getUserLikesPostInterest")
+	public Response<List<PostPlus>> getUserLikesPostInterest(@RequestParam int id) {
+		if (userServiceImpl.getUtilisateurById(id) == null) {
+			System.out.println("User not found");
+			return Response.failedResponse("User not found");
+		}
+		log.info("Get all posts by user id");
+		List<PostPlus> post = postServiceImpl.getUserLikesPostInterest(id);
+		return Response.successfulResponse("Post found", post);
 	}
 	
 }

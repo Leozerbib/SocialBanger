@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import A2.algo.socialBanger.Config.Response;
 import A2.algo.socialBanger.Model.Entity.Post;
+import A2.algo.socialBanger.Model.Entity.Abstract.PostPlus;
 import A2.algo.socialBanger.Model.Repo.PostRepository;
 import A2.algo.socialBanger.Service.PostService;
 import jakarta.transaction.Transactional;
@@ -50,6 +51,12 @@ public class PostServiceImpl implements PostService{
 		System.out.println("Post found : " + posts.toString());
 		log.info("Post found : " + posts.get(0).toString());
 		return	Response.successfulResponse("Post found", posts);
+	}
+
+	@Override
+	public List<PostPlus> getUserLikesPostInterest(int id) {
+		
+		return postRepository.findUserLikesPostInterest(id);
 	}
 
 }
