@@ -51,10 +51,7 @@ export class AccountService {
   }
 
   logout() {
-    // remove user from local storage and set current user to null
-    localStorage.removeItem('user');
-    this.userSubject.next(null);
-    this.router.navigate(['/account/login']);
+
 }
 register(createUser: RegisterDto): Observable<Response<Userall>> {
   return this.http.post<Response<Userall>>(`${environment.apiUrl}/user/Register`, createUser)

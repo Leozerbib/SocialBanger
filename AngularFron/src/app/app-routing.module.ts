@@ -9,7 +9,8 @@ const accountModule = () => import('./component/page/account/acount/acount.modul
 
 const routes: Routes = [
   { path: '', component: HomeComponent, canActivate: [AuthGuard] },
-  { path: 'account', component: CardAcountInfoComponent, canActivate: [AuthGuard] },
+  { path: 'account', loadChildren: accountModule },
+  { path: 'profile', component: CardAcountInfoComponent, canActivate: [AuthGuard] },
 
   // otherwise redirect to home
   { path: '**', redirectTo: '' }

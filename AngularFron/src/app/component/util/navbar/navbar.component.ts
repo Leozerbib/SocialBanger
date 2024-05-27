@@ -52,6 +52,7 @@ export class NavbarComponent {
   }
 
   logout() {
+    this.accountService.logout();
   }
 
   onTabChange(event: any) {
