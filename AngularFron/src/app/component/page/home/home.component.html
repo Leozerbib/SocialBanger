@@ -17,9 +17,9 @@
         </div>
         <div class="col-6 container-fluid feed-box h-full p-3">
             <div class="card w-full h-full">
-                <div *ngIf="posts.length == 0" class="flex w-full h-full p-2 align-item-center justify-content-center" style="overflow: hidden;">
+                <div *ngIf="posts.length == 0" class="flex flex-col h-full p-2 align-item-center justify-content-center" style="overflow: hidden;">
                     <p-progressSpinner 
-                        styleClass="w-4rem h-4rem" 
+                        styleClass="w-4rem h-4rem margin-top-auto margin-bottom-auto text-center vertical-align-middle" 
                         strokeWidth="8" 
                         fill="var(--surface-ground)" 
                         animationDuration=".5s" />

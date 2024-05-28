@@ -1,6 +1,6 @@
 <p-card header="{{username}}" subheader="{{post.createdAt}}"  class="w-full h-full" [routerLink]="['/profile',id]">
     <ng-template pTemplate="w-full">
-        <img alt="Card" src="https://primefaces.org/cdn/primeng/images/card-ng.jpg" class="w-full" style="border-radius: 15px;"/>
+        <img alt="Card" src="{{imgUrl}}" class="w-full" style="border-radius: 15px;"/>
     </ng-template>
     <div class="flex flex-row w-full">
         <div class="toggle-panel w-full">

@@ -29,6 +29,7 @@ import { CardPubliAccountComponent } from './component/page/template/card-acount
 import { CardInfoProfileComponent } from './component/page/template/card-acount-info/card-info-profile/card-info-profile.component';
 import { CardProfileInfoComponent } from './component/page/template/card-profile-info/card-profile-info/card-profile-info.component';
 import { ForYouPageComponent } from './component/page/template/forYou-page/for-you-page/for-you-page.component';
+import { PublicationComponent } from './component/page/template/publication/publication/publication.component';
 
 
 @NgModule({
@@ -59,7 +60,8 @@ import { ForYouPageComponent } from './component/page/template/forYou-page/for-y
     CardPubliAccountComponent,
     CardInfoProfileComponent,
     CardProfileInfoComponent,
-    ForYouPageComponent
+    ForYouPageComponent,
+    PublicationComponent
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },

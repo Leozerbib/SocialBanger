@@ -2,6 +2,8 @@ package A2.algo.socialBanger.Model.Entity;
 
 import java.time.LocalDateTime;
 
+import org.hibernate.annotations.BatchSize;
+
 import A2.algo.socialBanger.Model.Entity.Abstract.PostPlus;
 import A2.algo.socialBanger.Model.Entity.Abstract.UserPlus;
 import jakarta.persistence.Column;
@@ -29,6 +31,7 @@ public class Like {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", referencedColumnName = "id")
+    @BatchSize(size = 50)
     private UserPlus user;
    
 

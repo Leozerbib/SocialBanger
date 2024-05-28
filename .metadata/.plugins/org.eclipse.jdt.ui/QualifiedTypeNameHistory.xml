@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
-    <fullyQualifiedTypeName name="A2.algo.socialBanger.Service.ServiceIMPL.UserServiceImpl"/>
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Service.ServiceIMPL.PostServiceImpl"/>
     <fullyQualifiedTypeName name="jakarta.persistence.FetchType"/>
     <fullyQualifiedTypeName name="jakarta.persistence.CascadeType"/>
@@ -25,7 +23,6 @@
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Service.ServiceIMPL.SubscriptionServiceImpl"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="jakarta.persistence.ManyToMany"/>
-    <fullyQualifiedTypeName name="org.hibernate.annotations.FetchMode"/>
     <fullyQualifiedTypeName name="org.hibernate.FetchMode"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
@@ -37,10 +34,8 @@
     <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.Like"/>
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.Post"/>
-    <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.Abstract.LikePlus"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.Dto.User.UserDto"/>
-    <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.Abstract.UserPlus"/>
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.Abstract.SubscriptionPlus"/>
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.Abstract.UserAll"/>
     <fullyQualifiedTypeName name="jakarta.persistence.NamedQuery"/>
@@ -56,8 +51,13 @@
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Config.Response"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.Abstract.Userinfo"/>
-    <fullyQualifiedTypeName name="org.hibernate.annotations.BatchSize"/>
     <fullyQualifiedTypeName name="jakarta.persistence.JoinTable"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.Fetch"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.BatchSize"/>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.FetchMode"/>
+    <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.Abstract.LikePlus"/>
+    <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.Abstract.UserPlus"/>
+    <fullyQualifiedTypeName name="A2.algo.socialBanger.Model.Entity.Dto.PostDto.CreatePostDto"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
 </qualifiedTypeNameHistroy>

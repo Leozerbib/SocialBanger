@@ -13,7 +13,6 @@ export class Post {
     createdAt: LocalDateTime;
     updatedAt: LocalDateTime;
     location: string;
-    interests: Set<Interest>;
     comments: Set<Comment>;
     countLikes: number;
 
@@ -25,7 +24,6 @@ export class Post {
         createdAt: LocalDateTime,
         updatedAt: LocalDateTime,
         location: string,
-        interests: Set<Interest> = new Set<Interest>(),
         comments: Set<Comment> = new Set<Comment>(),
         countLikes: number
     ) {
@@ -36,7 +34,6 @@ export class Post {
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
         this.location = location;
-        this.interests = interests;
         this.comments = comments;
         this.countLikes = countLikes;
     }
@@ -54,7 +51,6 @@ export class Post {
             response.createdAt,
             response.updatedAt,
             response.location,
-            response.interests,
             Comments,
             response.countLikes
         );

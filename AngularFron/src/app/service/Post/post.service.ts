@@ -5,6 +5,7 @@ import { environment } from '../../../environments/environment'; // Adjust this 
 import { Response } from '../../model/util/response.model'; // Adjust the import according to your project structure
 import { Post } from '../../model/Post/post.model';
 import { PostPlus } from '../../model/Post/post-plus.model';
+import { CreatePost } from '../../model/Post/create-post.model';
 
 
 @Injectable({
@@ -29,6 +30,10 @@ export class PostService {
     );
   }
 
+  
+  createPost(postDto: CreatePost): Observable<any> {
+    return this.http.post<any>(this.apiUrl, postDto);
+  }
   
   getAllPostLikeInterest(id:number): Observable<Response<PostPlus[]>> {
     return this.http.get<Response<PostPlus[]>>(`${this.apiUrl}/getUserLikesPostInterest?id=` + id)

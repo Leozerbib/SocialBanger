@@ -52,7 +52,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Table(name = "users", schema = "public")
-@NamedQuery(name = "User.findById", query = "SELECT u FROM UserAll u left join fetch u.interests left join fetch u.subscriptions left join fetch u.posts left join fetch u.likes WHERE u.id = :id")
+@NamedQuery(name = "User.findById", query = "SELECT u FROM UserAll u left join fetch u.interests left join fetch u.country left join fetch u.subscriptions left join fetch u.posts left join fetch u.likes WHERE u.id = :id")
 public class UserAll {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -98,11 +98,13 @@ public class UserAll {
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "interest_id")
     )
-    @Fetch(org.hibernate.annotations.FetchMode.SUBSELECT)
+    @BatchSize(size = 100)
+    @Fetch(org.hibernate.annotations.FetchMode.JOIN)
     private Set<Interest> interests = new HashSet<>();
     
     @ManyToOne
     @JoinColumn(name = "country_id", referencedColumnName = "id")
+    @BatchSize(size = 50)
     private Country country;
     
     @Formula("(select count(*) from subscriptions s where s.user_id = id)")

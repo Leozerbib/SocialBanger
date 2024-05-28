@@ -105,7 +105,7 @@ public class Userinfo {
             inverseJoinColumns = @JoinColumn(name = "interest_id")
     )
     @BatchSize(size = 100)
-    @Fetch(org.hibernate.annotations.FetchMode.SUBSELECT)
+    @Fetch(org.hibernate.annotations.FetchMode.JOIN)
     private Set<Interest> interests = new HashSet<>();
     
     

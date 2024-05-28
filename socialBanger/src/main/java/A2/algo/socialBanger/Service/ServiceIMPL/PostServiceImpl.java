@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import A2.algo.socialBanger.Config.Response;
 import A2.algo.socialBanger.Model.Entity.Post;
 import A2.algo.socialBanger.Model.Entity.Abstract.PostPlus;
+import A2.algo.socialBanger.Model.Entity.Dto.PostDto.CreatePostDto;
 import A2.algo.socialBanger.Model.Repo.PostRepository;
 import A2.algo.socialBanger.Service.PostService;
 import jakarta.transaction.Transactional;
@@ -25,8 +26,8 @@ public class PostServiceImpl implements PostService{
 	PostRepository postRepository;
 	
 	@Override
-	public void createPost() {
-		// TODO Auto-generated method stub
+	public void createPost(CreatePostDto postDto) {
+		postRepository.save(new Post(postDto.getUser(),postDto.getContent(), postDto.getImg_url(), null));
 		
 	}
 

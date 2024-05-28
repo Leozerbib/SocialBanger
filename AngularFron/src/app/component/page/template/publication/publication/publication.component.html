@@ -1,0 +1,16 @@
+<!-- create-post.component.html -->
+<div class="create-post">
+    <h2>Create a New Post</h2>
+    <form (ngSubmit)="onSubmit()" #postForm="ngForm">
+      <div>
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" [(ngModel)]="post.content" required></textarea>
+      </div>
+      <div>
+        <label for="imgUrl">Image URL:</label>
+        <input type="text" id="imgUrl" name="imgUrl" [(ngModel)]="post.imgUrl">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  

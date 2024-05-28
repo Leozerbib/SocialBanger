@@ -13,6 +13,7 @@ export class CardPubliAccountComponent implements OnInit{
   @Input() user?: Userall ;
   countComents: number = 0;
   postt!: PostPlus;
+  imgUrl: string = '';
   id: number = 0;
   username: string = 'oui';
   countInterests: number = 0;
@@ -22,8 +23,9 @@ export class CardPubliAccountComponent implements OnInit{
 
   ngOnInit(): void {
     this.postt = this.post as PostPlus;
-    console.log(this.postt);
-
+    console.log(this.post);
+    this.imgUrl = this.post.img_url as string;
+    console.log(this.imgUrl);
     this.id = this.postt.user_id as number;
     this.username = this.user?.username as string;
   }

@@ -2,6 +2,8 @@ package A2.algo.socialBanger.Model.Entity;
 
 import java.time.LocalDateTime;
 
+import org.hibernate.annotations.BatchSize;
+
 import A2.algo.socialBanger.Model.Entity.Abstract.UserPlus;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -29,6 +31,7 @@ public class Comment {
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "user_id", referencedColumnName = "id")
+    @BatchSize(size = 50)
     private UserPlus user;
 
     @Column

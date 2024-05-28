@@ -21,9 +21,6 @@ export class CardPublicationComponent implements OnInit{
     for (let comment of this.post.comments) {
       this.countComents++;
     }
-    for (let interest of this.post.interests) {
-      this.countInterests++;
-    }
   }
 
   isOpen = false;

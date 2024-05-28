@@ -41,9 +41,7 @@ public class PostDto {
     private String location;
     
     private String img_url;
-    
-    private Set<Interest> interests = new HashSet<>();
-    
+        
     private Set<CommentDto> comments = new HashSet<>();
     
     private int countLikes;
@@ -55,7 +53,7 @@ public class PostDto {
 			comments.add(CommentDto.from(c));
 		}
 		return new PostDto(post.getId(), UserDto.fromUser(post.getUser()), post.getContent(), post.getCreatedAt(), post.getUpdatedAt(),
-				post.getLocation(), post.getImg_url(),  post.getInterests(), comments,post.getLikes().size());
+				post.getLocation(), post.getImg_url() , comments,post.getLikes().size());
 	}
 
 
@@ -63,7 +61,7 @@ public class PostDto {
 	public String toString() {
 		return "PostDto [id=" + id + ", user=" + user + ", content=" + content + ", createdAt=" + createdAt
 				+ ", updatedAt=" + updatedAt + ", location=" + location + ", img_url=" + img_url + ", interests="
-				+ interests + ", comments=" + comments + ", countLikes=" + countLikes + "]";
+				 + ", comments=" + comments + ", countLikes=" + countLikes + "]";
 	}
 	
 	
