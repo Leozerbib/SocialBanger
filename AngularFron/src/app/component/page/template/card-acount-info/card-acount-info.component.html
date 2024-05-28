@@ -1,8 +1,8 @@
 <div class="flex flex-col flex-wrap w-full h-full p-2">
     <div class="flex flex-row flex-wrap w-full h-full" >
-        <div class="flex flex-col flex-wrap w-8 h-full p-2">
-            <div class="flex flex-row flex-wrap w-full p-2" style="height: 23%; border: 1px solid darkgrey;border-radius: 10px;" >
-
+        <div class="flex flex-col flex-wrap w-8 h-full p-2 justify-content-center">
+            <div class="flex flex-row flex-wrap w-8 p-2 justify-content-center" style="height: 23%; border: 1px solid darkgrey;border-radius: 10px;" >
+                <app-card-info-profile [user]="user" class="w-full h-full p-2" style="height: 100%;"></app-card-info-profile>
             </div>
             <div class="flex flex-row flex-wrap w-full p-2" style="height: 75%; border: 1px solid darkgrey;border-radius: 10px; margin-top: 2%;">
                 <div class="card w-full h-full">
@@ -14,7 +14,9 @@
         </div>
         <div class="flex flex-col flex-wrap w-4 h-full p-2">
             <div class="flex flex-row flex-wrap w-full h-full p-2" style="border:  1px solid darkgrey;border-radius: 10px;">
-
+                <div class=" flex flex-col flex-wrap w-full h-full " style="overflow: hidden; overflow-y: scroll;" >
+                    <app-card-compte *ngFor="let user of commonSub" [user]="user" class="flex flex-row w-full" style="height: 30%;"></app-card-compte>
+                </div>
             </div>
         </div>
     </div>

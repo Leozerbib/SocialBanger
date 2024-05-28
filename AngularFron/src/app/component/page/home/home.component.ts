@@ -20,7 +20,7 @@ import { SubscriptionSub } from '../../../model/Sub/subscription-sub.model';
     ]
  })
 export class HomeComponent implements OnInit{
-    user: Userall | null;
+    user: Userall;
     id!:any;
     posts: Post[] = [];
     userCommun: UserInfo[] = [];
@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit{
     isConnected: boolean = false;
     
     constructor(private accountService: AccountService,private PostService: PostService) {
-        this.user = this.accountService.userValue;
+        this.user = this.accountService.userValue as Userall;
         console.log(this.user);
     }
 
@@ -57,7 +57,6 @@ export class HomeComponent implements OnInit{
               if (response.success) {
                   for (let i = 0; i < response.data.length; i++) {
                     const user: UserInfo = UserInfo.fromJson(response.data[i]);
-                    console.log(user);
                     this.userCommun.push(user);
                 }
               } else {
@@ -77,7 +76,6 @@ export class HomeComponent implements OnInit{
               if (response.success) {
                   for (let i = 0; i < response.data.length; i++) {
                     const user: UserInfo = UserInfo.fromJson(response.data[i]);
-                    console.log(user);
                     this.userCommunSub.push(user);
                   
                 }
@@ -98,7 +96,6 @@ export class HomeComponent implements OnInit{
                   for (let i = 0; i < response.data.length; i++) {
                     const user: SubscriptionSub = SubscriptionSub.fromDto(response.data[i]);
                     const users: UserDto = UserDto.fromJson(user.subscribedUser);
-                    console.log(user);
                     this.userSub.push(users);
                 }
               } else {

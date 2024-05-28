@@ -8,26 +8,27 @@ import { Status } from "../enum/status";
 
 export class Userall {
 
-  id: number;
-  firstName: string;
-  lastName: string;
-  username: string;
-  email: string;
-  password: string;
-  createdAt: Date;
-  updatedAt: Date;
-  userStatus: Status;
-  age: number;
-  gender: Gender;
-  interests: Interest[];
-  country: Country;
-  countSubscribers: number;
-  countSubscriptions: number;
-  subscriptions: SubscriptionPlus[];
-  posts: PostPlus[];
-  likes: LikePlus[];
+  id: number | undefined;
+  firstName: string | undefined;
+  lastName: string | undefined;
+  username: string | undefined;
+  email: string | undefined;
+  password: string | undefined;
+  createdAt: Date | undefined;
+  updatedAt: Date | undefined;
+  userStatus: Status | undefined;
+  age: number | undefined;
+  gender: Gender | undefined;
+  interests: Interest[] | undefined;
+  country: Country | undefined;
+  countSubscribers: number | undefined;
+  countSubscriptions: number | undefined;
+  subscriptions: SubscriptionPlus[] | undefined;
+  posts: PostPlus[] | undefined;
+  likes: LikePlus[] | undefined;
 
-  constructor(id: number, firstName: string, lastName: string, username: string, email: string, password: string, createdAt: Date, updatedAt: Date, userStatus: Status, age: number, gender: Gender, interests: Interest[], country: Country, countSubscribers: number, countSubscriptions: number, subscriptions: SubscriptionPlus[], posts: PostPlus[], likes: LikePlus[]) {
+
+  constructor(id?: number, firstName?: string, lastName?: string, username?: string, email?: string, password?: string, createdAt?: Date, updatedAt?: Date, userStatus?: Status, age?: number, gender?: Gender, interests?: Interest[], country?: Country, countSubscribers?: number, countSubscriptions?: number, subscriptions?: SubscriptionPlus[], posts?: PostPlus[], likes?: LikePlus[]) {
     this.id = id;
     this.firstName = firstName;
     this.lastName = lastName;

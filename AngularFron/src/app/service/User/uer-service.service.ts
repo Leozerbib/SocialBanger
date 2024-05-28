@@ -51,7 +51,10 @@ export class AccountService {
   }
 
   logout() {
-
+    // remove user from local storage and set current user to null
+    localStorage.removeItem('user');
+    this.userSubject.next(null);
+    this.router.navigate(['/account/login']);
 }
 register(createUser: RegisterDto): Observable<Response<Userall>> {
   return this.http.post<Response<Userall>>(`${environment.apiUrl}/user/Register`, createUser)
@@ -139,9 +142,23 @@ Sub(id: number): Observable<Response<SubscriptionSub[]>> {
       );
   }
 
-  getById(id: number): Observable<Response<User>> {
-    return this.http.get<Response<User>>(`${environment.apiUrl}/user/getById/${id}`)
+  getById(id: number): Observable<Response<Userall>> {
+    return this.http.get<Response<Userall>>(`${environment.apiUrl}/user/getById?id=${id}`)
       .pipe(
+        catchError(this.handleError)
+      );
+  }
+
+  commonSub(id: number): Observable<Response<UserInfo[]>> {
+    return this.http.get<Response<UserInfo[]>>(`${environment.apiUrl}/user/CommunSub?id=${id}`)
+    .pipe(
+      map(response => {
+        if (response.success) {
+          localStorage.setItem('communsub', JSON.stringify(response.data));
+          console.log(response.data);
+        }
+        return response;
+      }),
         catchError(this.handleError)
       );
   }

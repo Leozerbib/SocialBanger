@@ -125,9 +125,10 @@ public class UserControler {
 	
 	
 
-	@PostMapping("/getById")
+	@GetMapping("/getById")
 	public Response<UserAll> getById(@RequestParam int id) {
 		UserAll user = userServiceImpl.getUtilisateurById(id).getData();
+		log.info("User found : " + user.toString());
 		if (user == null) {
 			return Response.failedResponse("User not found");
 		}

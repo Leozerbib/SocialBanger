@@ -4,22 +4,22 @@
     <div class="w-7 flex flex-row h-full bg-dark align-item-center" style="padding: 0%; margin: 0;" >
         <ul class="flex flex-row w-full h-full" style="padding: 0%; margin: 0;">
             <li>
-                <a class="nav-item nav-link w-3" >Home</a>
+                <a class="nav-item nav-link w-3" routerLink="/" routerLinkActive="active">Home</a>
             </li>
             <li>
-                <a class="nav-item nav-link">For You</a>
+                <a class="nav-item nav-link" routerLink="/foryou" routerLinkActive="active">For You</a>
             </li>
             <li>
-                <a class="nav-item nav-link">Publications</a>
+                <a class="nav-item nav-link" routerLink="/home" routerLinkActive="active">Publications</a>
             </li>
             <li>
-                <a class="nav-item nav-link" >{{items[4].label}}</a>
+                <a class="nav-item nav-link" routerLink="/" routerLinkActive="active" (click)="logout()">{{items[4].label}}</a>
             </li>
         </ul>
     </div>
     <div class="w-2">
       <div class="flex flex-row justify-content-end">
-        <a class="nav-item nav-link" routerLink="/account" routerLinkActive="active">Profile</a>
+        <a class="nav-item nav-link" routerLink="/profile" routerLinkActive="active">Profile</a>
       </div>
     </div>
 </div>

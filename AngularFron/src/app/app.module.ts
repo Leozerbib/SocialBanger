@@ -26,6 +26,9 @@ import { AvatarModule } from 'primeng/avatar';
 import { CardCompteComponent } from './component/page/template/card-compte/card-compte.component';
 import { CardAcountInfoComponent } from './component/page/template/card-acount-info/card-acount-info.component';
 import { CardPubliAccountComponent } from './component/page/template/card-acount-info/card-publi-account/card-publi-account.component';
+import { CardInfoProfileComponent } from './component/page/template/card-acount-info/card-info-profile/card-info-profile.component';
+import { CardProfileInfoComponent } from './component/page/template/card-profile-info/card-profile-info/card-profile-info.component';
+import { ForYouPageComponent } from './component/page/template/forYou-page/for-you-page/for-you-page.component';
 
 
 @NgModule({
@@ -53,7 +56,10 @@ import { CardPubliAccountComponent } from './component/page/template/card-acount
     NavbarComponent,
     CardCompteComponent,
     CardAcountInfoComponent,
-    CardPubliAccountComponent
+    CardPubliAccountComponent,
+    CardInfoProfileComponent,
+    CardProfileInfoComponent,
+    ForYouPageComponent
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
